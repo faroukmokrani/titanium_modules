@@ -944,7 +944,7 @@ public class Session implements Serializable {
         boolean started = false;
 
         request.setApplicationId(applicationId);
-
+        Settings.publishInstallAsync(staticContext, applicationId);
         autoPublishAsync();
 
         started = tryLoginActivity(request);
