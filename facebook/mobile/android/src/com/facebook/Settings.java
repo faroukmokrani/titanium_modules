@@ -304,11 +304,9 @@ public final class Settings {
             }
             return lastPing != 0;
         } catch (Exception e) {
-            try{
+            if(e.getMessage() != null && !e.getMessage().isEmpty()) {
               // if there was an error, fall through to the failure case.
               Utility.logd("Facebook-publish", e.getMessage());
-            }catch(Exception err){
-              // Failure: No Connection
             }
         }
         return false;
