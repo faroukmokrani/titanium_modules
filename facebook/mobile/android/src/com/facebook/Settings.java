@@ -304,8 +304,12 @@ public final class Settings {
             }
             return lastPing != 0;
         } catch (Exception e) {
-            // if there was an error, fall through to the failure case.
-            Utility.logd("Facebook-publish", e.getMessage());
+            try{
+              // if there was an error, fall through to the failure case.
+              Utility.logd("Facebook-publish", e.getMessage());
+            }catch(Exception err){
+              // Failure: No Connection
+            }
         }
         return false;
     }
