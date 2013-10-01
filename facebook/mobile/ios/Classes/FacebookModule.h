@@ -6,6 +6,7 @@
 
 #import "TiModule.h"
 #import "FBConnect/FacebookSDK.h"
+#import "Facebook.h"
 
 @protocol TiFacebookStateListener
 @required
@@ -15,15 +16,17 @@
 
 
 @interface FacebookModule : TiModule
-{
+{   
+	Facebook *facebook;
 	BOOL loggedIn;
 	NSString *uid;
 	NSString *url;
+	NSString *appid;	
 	NSArray *permissions;
 	NSString *urlSchemeSuffix;
 	NSMutableArray *stateListeners;
 }
-
+@property(nonatomic,readonly) Facebook *facebook;
 @property(nonatomic,readonly) NSNumber *BUTTON_STYLE_NORMAL;
 @property(nonatomic,readonly) NSNumber *BUTTON_STYLE_WIDE;
 

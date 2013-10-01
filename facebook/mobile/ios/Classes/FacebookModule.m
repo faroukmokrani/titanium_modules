@@ -40,6 +40,33 @@ FBSession *mySession;
 	[super dealloc];
 }
 
+-(id)_restore
+{
+	VerboseLog(@"[DEBUG] facebook _restore");
+	RELEASE_TO_NIL(uid);
+	RELEASE_TO_NIL(facebook);
+	RELEASE_TO_NIL(appid);
+	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+	NSString *uid_ = [defaults objectForKey:@"FBUserId"];
+	appid = [[defaults stringForKey:@"FBAppId"] copy];
+
+	facebook = [[Facebook alloc] initWithAppId:appid urlSchemeSuffix:urlSchemeSuffix andDelegate:self];
+	VerboseLog(@"[DEBUG] facebook _restore, uid = %@",uid_);
+	if (uid_)
+	{
+		NSDate* expirationDate = [defaults objectForKey:@"FBSessionExpires"];
+		VerboseLog(@"[DEBUG] facebook _restore, expirationDate = %@",expirationDate);
+		if (!expirationDate || [expirationDate timeIntervalSinceNow] > 0) {
+			uid = [uid_ copy];
+			facebook.accessToken = [defaults stringForKey:@"FBAccessToken"];
+			facebook.expirationDate = expirationDate;
+			loggedIn = YES;
+			[self performSelector:@selector(fbDidLogin)];
+		}
+	}
+	return facebook;
+}
+
 -(BOOL)handleRelaunch
 {
 	NSDictionary *launchOptions = [[TiApp app] launchOptions];
@@ -78,7 +105,6 @@ FBSession *mySession;
 {
 
 	NSLog(@"[DEBUG] FACEBOOK SDK 3.8.0 si si la famille !");
-	[facebook setUrlSchemeSuffix:'myappsuffix'];
 	[super startup];
 	TiThreadPerformOnMainThread(^{
 		NSNotificationCenter * nc = [NSNotificationCenter defaultCenter];
@@ -219,6 +245,19 @@ FBSession *mySession;
  * JS example:
  *
  * var facebook = require('facebook');
+ * facebook.urlSchemeSuffix = 'myappsuffix';
+ * alert(facebook.urlSchemeSuffix);
+ *
+ */
+-(id)urlSchemeSuffix
+{
+	return urlSchemeSuffix;
+}
+
+/**
+ * JS example:
+ *
+ * var facebook = require('facebook');
  * alert(facebook.accessToken);
  *
  */
@@ -254,6 +293,21 @@ FBSession *mySession;
 {
 	RELEASE_TO_NIL(permissions);
 	permissions = [arg retain];
+}
+
+/**
+ * JS example:
+ *
+ * var facebook = require('facebook');
+ * facebook.urlSchemeSuffix = 'myappsuffix';
+ * alert(facebook.urlSchemeSuffix);
+ *
+ */
+-(void)setUrlSchemeSuffix:(id)arg
+{
+	RELEASE_TO_NIL(urlSchemeSuffix);
+	urlSchemeSuffix = [arg copy];
+	[facebook setUrlSchemeSuffix:urlSchemeSuffix];
 }
 
 /**
