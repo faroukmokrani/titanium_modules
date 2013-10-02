@@ -40,33 +40,6 @@ FBSession *mySession;
 	[super dealloc];
 }
 
--(id)_restore
-{
-	VerboseLog(@"[DEBUG] facebook _restore");
-	RELEASE_TO_NIL(uid);
-	RELEASE_TO_NIL(facebook);
-	RELEASE_TO_NIL(appid);
-	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-	NSString *uid_ = [defaults objectForKey:@"FBUserId"];
-	appid = [[defaults stringForKey:@"FBAppId"] copy];
-
-	facebook = [[Facebook alloc] initWithAppId:appid urlSchemeSuffix:urlSchemeSuffix andDelegate:self];
-	VerboseLog(@"[DEBUG] facebook _restore, uid = %@",uid_);
-	if (uid_)
-	{
-		NSDate* expirationDate = [defaults objectForKey:@"FBSessionExpires"];
-		VerboseLog(@"[DEBUG] facebook _restore, expirationDate = %@",expirationDate);
-		if (!expirationDate || [expirationDate timeIntervalSinceNow] > 0) {
-			uid = [uid_ copy];
-			facebook.accessToken = [defaults stringForKey:@"FBAccessToken"];
-			facebook.expirationDate = expirationDate;
-			loggedIn = YES;
-			[self performSelector:@selector(fbDidLogin)];
-		}
-	}
-	return facebook;
-}
-
 -(BOOL)handleRelaunch
 {
 	NSDictionary *launchOptions = [[TiApp app] launchOptions];
@@ -103,12 +76,10 @@ FBSession *mySession;
 
 -(void)startup
 {
-
-	NSLog(@"[DEBUG] FACEBOOK SDK 3.8.0 si si la famille !");
-	[super startup];
+	[super startup];                                        
 	TiThreadPerformOnMainThread(^{
 		NSNotificationCenter * nc = [NSNotificationCenter defaultCenter];
-
+		
         [nc addObserver:self selector:@selector(activateApp:) name:UIApplicationDidBecomeActiveNotification object:nil];
         if (FBSession.activeSession.state == FBSessionStateCreatedTokenLoaded) {
             // Start with logged-in state, guaranteed no login UX is fired since logged-in
@@ -250,9 +221,27 @@ FBSession *mySession;
  *
  */
 -(id)urlSchemeSuffix
-{
+{        
 	return urlSchemeSuffix;
 }
+
+/**
+ * JS example:
+ *
+ * var facebook = require('facebook');
+ * facebook.urlSchemeSuffix = 'myappsuffix';
+ * alert(facebook.urlSchemeSuffix);
+ *
+ */
+-(void)setUrlSchemeSuffix:(id)arg
+{   
+	RELEASE_TO_NIL(urlSchemeSuffix);
+	urlSchemeSuffix = [arg copy];
+    TiThreadPerformOnMainThread(^{
+        [FBSettings setDefaultUrlSchemeSuffix:urlSchemeSuffix];
+        [FBSession.activeSession setUrlSchemeSuffix:urlSchemeSuffix];
+    }, YES);
+}     
 
 /**
  * JS example:
@@ -293,21 +282,6 @@ FBSession *mySession;
 {
 	RELEASE_TO_NIL(permissions);
 	permissions = [arg retain];
-}
-
-/**
- * JS example:
- *
- * var facebook = require('facebook');
- * facebook.urlSchemeSuffix = 'myappsuffix';
- * alert(facebook.urlSchemeSuffix);
- *
- */
--(void)setUrlSchemeSuffix:(id)arg
-{
-	RELEASE_TO_NIL(urlSchemeSuffix);
-	urlSchemeSuffix = [arg copy];
-	[facebook setUrlSchemeSuffix:urlSchemeSuffix];
 }
 
 /**
