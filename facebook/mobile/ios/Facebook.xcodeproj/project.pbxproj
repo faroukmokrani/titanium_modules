@@ -22,116 +22,212 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		1D155FE916B34A5100D43852 /* Facebook.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155F8B16B34A5100D43852 /* Facebook.h */; };
-		1D155FEA16B34A5100D43852 /* Facebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D155F8C16B34A5100D43852 /* Facebook.m */; };
-		1D155FEB16B34A5100D43852 /* FacebookSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155F8D16B34A5100D43852 /* FacebookSDK.h */; };
-		1D155FEC16B34A5100D43852 /* FBCacheDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155F8E16B34A5100D43852 /* FBCacheDescriptor.h */; };
-		1D155FED16B34A5100D43852 /* FBCacheDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D155F8F16B34A5100D43852 /* FBCacheDescriptor.m */; };
-		1D155FEE16B34A5100D43852 /* FBCacheIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155F9016B34A5100D43852 /* FBCacheIndex.h */; };
-		1D155FEF16B34A5100D43852 /* FBCacheIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D155F9116B34A5100D43852 /* FBCacheIndex.m */; };
-		1D155FF016B34A5100D43852 /* FBConnect.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155F9216B34A5100D43852 /* FBConnect.h */; };
-		1D155FF116B34A5100D43852 /* FBContentLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155F9316B34A5100D43852 /* FBContentLink.h */; };
-		1D155FF216B34A5100D43852 /* FBContentLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D155F9416B34A5100D43852 /* FBContentLink.m */; };
-		1D155FF316B34A5100D43852 /* FBDataDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155F9516B34A5100D43852 /* FBDataDiskCache.h */; };
-		1D155FF416B34A5100D43852 /* FBDataDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D155F9616B34A5100D43852 /* FBDataDiskCache.m */; };
-		1D155FF516B34A5100D43852 /* FBDialog.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155F9716B34A5100D43852 /* FBDialog.h */; };
-		1D155FF616B34A5100D43852 /* FBDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D155F9816B34A5100D43852 /* FBDialog.m */; };
-		1D155FF716B34A5100D43852 /* FBError.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155F9916B34A5100D43852 /* FBError.h */; };
-		1D155FF816B34A5100D43852 /* FBError.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D155F9A16B34A5100D43852 /* FBError.m */; };
-		1D155FF916B34A5100D43852 /* FBFrictionlessRequestSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155F9B16B34A5100D43852 /* FBFrictionlessRequestSettings.h */; };
-		1D155FFA16B34A5100D43852 /* FBFrictionlessRequestSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D155F9C16B34A5100D43852 /* FBFrictionlessRequestSettings.m */; };
-		1D155FFB16B34A5100D43852 /* FBFriendPickerCacheDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155F9D16B34A5100D43852 /* FBFriendPickerCacheDescriptor.h */; };
-		1D155FFC16B34A5100D43852 /* FBFriendPickerCacheDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D155F9E16B34A5100D43852 /* FBFriendPickerCacheDescriptor.m */; };
-		1D155FFD16B34A5100D43852 /* FBFriendPickerViewController+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155F9F16B34A5100D43852 /* FBFriendPickerViewController+Internal.h */; };
-		1D155FFE16B34A5100D43852 /* FBFriendPickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155FA016B34A5100D43852 /* FBFriendPickerViewController.h */; };
-		1D155FFF16B34A5100D43852 /* FBFriendPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D155FA116B34A5100D43852 /* FBFriendPickerViewController.m */; };
-		1D15600016B34A5100D43852 /* FBGraphLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155FA216B34A5100D43852 /* FBGraphLocation.h */; };
-		1D15600116B34A5100D43852 /* FBGraphObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155FA316B34A5100D43852 /* FBGraphObject.h */; };
-		1D15600216B34A5100D43852 /* FBGraphObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D155FA416B34A5100D43852 /* FBGraphObject.m */; };
-		1D15600316B34A5100D43852 /* FBGraphObjectPagingLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155FA516B34A5100D43852 /* FBGraphObjectPagingLoader.h */; };
-		1D15600416B34A5100D43852 /* FBGraphObjectPagingLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D155FA616B34A5100D43852 /* FBGraphObjectPagingLoader.m */; };
-		1D15600516B34A5100D43852 /* FBGraphObjectTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155FA716B34A5100D43852 /* FBGraphObjectTableCell.h */; };
-		1D15600616B34A5100D43852 /* FBGraphObjectTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D155FA816B34A5100D43852 /* FBGraphObjectTableCell.m */; };
-		1D15600716B34A5100D43852 /* FBGraphObjectTableDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155FA916B34A5100D43852 /* FBGraphObjectTableDataSource.h */; };
-		1D15600816B34A5100D43852 /* FBGraphObjectTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D155FAA16B34A5100D43852 /* FBGraphObjectTableDataSource.m */; };
-		1D15600916B34A5100D43852 /* FBGraphObjectTableSelection.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155FAB16B34A5100D43852 /* FBGraphObjectTableSelection.h */; };
-		1D15600A16B34A5100D43852 /* FBGraphObjectTableSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D155FAC16B34A5100D43852 /* FBGraphObjectTableSelection.m */; };
-		1D15600B16B34A5100D43852 /* FBGraphPlace.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155FAD16B34A5100D43852 /* FBGraphPlace.h */; };
-		1D15600C16B34A5100D43852 /* FBGraphUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155FAE16B34A5100D43852 /* FBGraphUser.h */; };
-		1D15600D16B34A5100D43852 /* FBLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155FAF16B34A5100D43852 /* FBLogger.h */; };
-		1D15600E16B34A5100D43852 /* FBLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D155FB016B34A5100D43852 /* FBLogger.m */; };
-		1D15600F16B34A5100D43852 /* FBLoginButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155FB116B34A5100D43852 /* FBLoginButton.h */; };
-		1D15601016B34A5100D43852 /* FBLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D155FB216B34A5100D43852 /* FBLoginButton.m */; };
-		1D15601116B34A5100D43852 /* FBLoginDialog.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155FB316B34A5100D43852 /* FBLoginDialog.h */; };
-		1D15601216B34A5100D43852 /* FBLoginDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D155FB416B34A5100D43852 /* FBLoginDialog.m */; };
-		1D15601316B34A5100D43852 /* FBLoginView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155FB516B34A5100D43852 /* FBLoginView.h */; };
-		1D15601416B34A5100D43852 /* FBLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D155FB616B34A5100D43852 /* FBLoginView.m */; };
-		1D15601516B34A5100D43852 /* FBNativeDialogs.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155FB716B34A5100D43852 /* FBNativeDialogs.h */; };
-		1D15601616B34A5100D43852 /* FBNativeDialogs.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D155FB816B34A5100D43852 /* FBNativeDialogs.m */; };
-		1D15601716B34A5100D43852 /* FBOpenGraphAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155FB916B34A5100D43852 /* FBOpenGraphAction.h */; };
-		1D15601816B34A5100D43852 /* FBPlacePickerCacheDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155FBA16B34A5100D43852 /* FBPlacePickerCacheDescriptor.h */; };
-		1D15601916B34A5100D43852 /* FBPlacePickerCacheDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D155FBB16B34A5100D43852 /* FBPlacePickerCacheDescriptor.m */; };
-		1D15601A16B34A5100D43852 /* FBPlacePickerViewController+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155FBC16B34A5100D43852 /* FBPlacePickerViewController+Internal.h */; };
-		1D15601B16B34A5100D43852 /* FBPlacePickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155FBD16B34A5100D43852 /* FBPlacePickerViewController.h */; };
-		1D15601C16B34A5100D43852 /* FBPlacePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D155FBE16B34A5100D43852 /* FBPlacePickerViewController.m */; };
-		1D15601D16B34A5100D43852 /* FBProfilePictureView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155FBF16B34A5100D43852 /* FBProfilePictureView.h */; };
-		1D15601E16B34A5100D43852 /* FBProfilePictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D155FC016B34A5100D43852 /* FBProfilePictureView.m */; };
-		1D15601F16B34A5100D43852 /* FBRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155FC116B34A5100D43852 /* FBRequest.h */; };
-		1D15602016B34A5100D43852 /* FBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D155FC216B34A5100D43852 /* FBRequest.m */; };
-		1D15602116B34A5100D43852 /* FBRequestBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155FC316B34A5100D43852 /* FBRequestBody.h */; };
-		1D15602216B34A5100D43852 /* FBRequestBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D155FC416B34A5100D43852 /* FBRequestBody.m */; };
-		1D15602316B34A5100D43852 /* FBRequestConnection+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155FC516B34A5100D43852 /* FBRequestConnection+Internal.h */; };
-		1D15602416B34A5100D43852 /* FBRequestConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155FC616B34A5100D43852 /* FBRequestConnection.h */; };
-		1D15602516B34A5100D43852 /* FBRequestConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D155FC716B34A5100D43852 /* FBRequestConnection.m */; };
-		1D15602616B34A5100D43852 /* FBSDKVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155FC816B34A5100D43852 /* FBSDKVersion.h */; };
-		1D15602716B34A5100D43852 /* FBSession+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155FC916B34A5100D43852 /* FBSession+Internal.h */; };
-		1D15602816B34A5100D43852 /* FBSession+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155FCA16B34A5100D43852 /* FBSession+Protected.h */; };
-		1D15602916B34A5100D43852 /* FBSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155FCB16B34A5100D43852 /* FBSession.h */; };
-		1D15602A16B34A5100D43852 /* FBSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D155FCC16B34A5100D43852 /* FBSession.m */; };
-		1D15602B16B34A5100D43852 /* FBSessionManualTokenCachingStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155FCD16B34A5100D43852 /* FBSessionManualTokenCachingStrategy.h */; };
-		1D15602C16B34A5100D43852 /* FBSessionManualTokenCachingStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D155FCE16B34A5100D43852 /* FBSessionManualTokenCachingStrategy.m */; };
-		1D15602D16B34A5100D43852 /* FBSessionTokenCachingStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155FCF16B34A5100D43852 /* FBSessionTokenCachingStrategy.h */; };
-		1D15602E16B34A5100D43852 /* FBSessionTokenCachingStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D155FD016B34A5100D43852 /* FBSessionTokenCachingStrategy.m */; };
-		1D15602F16B34A5100D43852 /* FBSettings+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155FD116B34A5100D43852 /* FBSettings+Internal.h */; };
-		1D15603016B34A5100D43852 /* FBSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155FD216B34A5100D43852 /* FBSettings.h */; };
-		1D15603116B34A5100D43852 /* FBSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D155FD316B34A5100D43852 /* FBSettings.m */; };
-		1D15603216B34A5100D43852 /* FBTestSession+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155FD416B34A5100D43852 /* FBTestSession+Internal.h */; };
-		1D15603316B34A5100D43852 /* FBTestSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155FD516B34A5100D43852 /* FBTestSession.h */; };
-		1D15603416B34A5100D43852 /* FBTestSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D155FD616B34A5100D43852 /* FBTestSession.m */; };
-		1D15603516B34A5100D43852 /* FBURLConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155FD716B34A5100D43852 /* FBURLConnection.h */; };
-		1D15603616B34A5100D43852 /* FBURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D155FD816B34A5100D43852 /* FBURLConnection.m */; };
-		1D15603716B34A5100D43852 /* FBUserSettingsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155FD916B34A5100D43852 /* FBUserSettingsViewController.h */; };
-		1D15603816B34A5100D43852 /* FBUserSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D155FDA16B34A5100D43852 /* FBUserSettingsViewController.m */; };
-		1D15603916B34A5100D43852 /* FBUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155FDB16B34A5100D43852 /* FBUtility.h */; };
-		1D15603A16B34A5100D43852 /* FBUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D155FDC16B34A5100D43852 /* FBUtility.m */; };
-		1D15603B16B34A5100D43852 /* FBViewController+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155FDD16B34A5100D43852 /* FBViewController+Internal.h */; };
-		1D15603C16B34A5100D43852 /* FBViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155FDE16B34A5100D43852 /* FBViewController.h */; };
-		1D15603D16B34A5100D43852 /* FBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D155FDF16B34A5100D43852 /* FBViewController.m */; };
-		1D15603E16B34A5100D43852 /* FBSBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155FE116B34A5100D43852 /* FBSBJSON.h */; };
-		1D15603F16B34A5100D43852 /* FBSBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D155FE216B34A5100D43852 /* FBSBJSON.m */; };
-		1D15604016B34A5100D43852 /* FBSBJsonBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155FE316B34A5100D43852 /* FBSBJsonBase.h */; };
-		1D15604116B34A5100D43852 /* FBSBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D155FE416B34A5100D43852 /* FBSBJsonBase.m */; };
-		1D15604216B34A5100D43852 /* FBSBJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155FE516B34A5100D43852 /* FBSBJsonParser.h */; };
-		1D15604316B34A5100D43852 /* FBSBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D155FE616B34A5100D43852 /* FBSBJsonParser.m */; };
-		1D15604416B34A5100D43852 /* FBSBJsonWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D155FE716B34A5100D43852 /* FBSBJsonWriter.h */; };
-		1D15604516B34A5100D43852 /* FBSBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D155FE816B34A5100D43852 /* FBSBJsonWriter.m */; };
-		1D15604C16B34AA200D43852 /* TiFacebookDialogRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D15604616B34AA200D43852 /* TiFacebookDialogRequest.h */; };
-		1D15604D16B34AA200D43852 /* TiFacebookDialogRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D15604716B34AA200D43852 /* TiFacebookDialogRequest.m */; };
 		1D15604E16B34AA200D43852 /* TiFacebookLoginButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D15604816B34AA200D43852 /* TiFacebookLoginButton.h */; };
-		1D15604F16B34AA200D43852 /* TiFacebookLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D15604916B34AA200D43852 /* TiFacebookLoginButton.m */; };
 		1D15605016B34AA200D43852 /* TiFacebookLoginButtonProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D15604A16B34AA200D43852 /* TiFacebookLoginButtonProxy.h */; };
-		1D15605116B34AA200D43852 /* TiFacebookLoginButtonProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D15604B16B34AA200D43852 /* TiFacebookLoginButtonProxy.m */; };
-		1D15605416B34AC800D43852 /* TiFacebookRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D15605216B34AC800D43852 /* TiFacebookRequest.h */; };
-		1D15605516B34AC800D43852 /* TiFacebookRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D15605316B34AC800D43852 /* TiFacebookRequest.m */; };
-		1D15605C16B3615100D43852 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D15605916B3615100D43852 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		1D15605D16B3615100D43852 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D15605A16B3615100D43852 /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		1D15605E16B3615100D43852 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D15605B16B3615100D43852 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		1D15605C16B3615100D43852 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D15605916B3615100D43852 /* AdSupport.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		1D15605D16B3615100D43852 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D15605A16B3615100D43852 /* Accounts.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		1D15605E16B3615100D43852 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D15605B16B3615100D43852 /* Social.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		24DD6CF91134B3F500162E58 /* FacebookModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* FacebookModule.h */; };
-		24DD6CFA1134B3F500162E58 /* FacebookModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* FacebookModule.m */; };
 		24DE9E1111C5FE74003F90F6 /* FacebookModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* FacebookModuleAssets.h */; };
-		24DE9E1211C5FE74003F90F6 /* FacebookModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* FacebookModuleAssets.m */; };
 		AA747D9F0F9514B9006C5449 /* Facebook_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* Facebook_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		F01DE44117FAB39D00AE306A /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F01DE44017FAB39D00AE306A /* libsqlite3.dylib */; };
+		F01DE44317FAB3A700AE306A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F01DE44217FAB3A700AE306A /* Security.framework */; };
+		F09F66EC17FAD77400CBEADE /* NSError+FBError.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F65CE17FAD77300CBEADE /* NSError+FBError.m */; };
+		F09F66ED17FAD77400CBEADE /* NSError+FBError.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F65CF17FAD77300CBEADE /* NSError+FBError.h */; };
+		F09F66EF17FAD77400CBEADE /* FBWebDialogs.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F65E417FAD77300CBEADE /* FBWebDialogs.m */; };
+		F09F66F017FAD77400CBEADE /* FBWebDialogs.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F65E517FAD77300CBEADE /* FBWebDialogs.h */; };
+		F09F66F117FAD77400CBEADE /* FBViewController+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F65E617FAD77300CBEADE /* FBViewController+Internal.h */; };
+		F09F66F217FAD77400CBEADE /* FBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F65E717FAD77300CBEADE /* FBViewController.m */; };
+		F09F66F317FAD77400CBEADE /* FBViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F65E817FAD77300CBEADE /* FBViewController.h */; };
+		F09F66F417FAD77400CBEADE /* FBUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F65E917FAD77300CBEADE /* FBUtility.m */; };
+		F09F66F517FAD77400CBEADE /* FBUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F65EA17FAD77300CBEADE /* FBUtility.h */; };
+		F09F66F617FAD77400CBEADE /* FBUserSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F65EC17FAD77300CBEADE /* FBUserSettingsViewController.m */; };
+		F09F66F717FAD77400CBEADE /* FBUserSettingsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F65ED17FAD77300CBEADE /* FBUserSettingsViewController.h */; };
+		F09F66F817FAD77400CBEADE /* FBURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F65EE17FAD77300CBEADE /* FBURLConnection.m */; };
+		F09F66F917FAD77400CBEADE /* FBURLConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F65EF17FAD77300CBEADE /* FBURLConnection.h */; };
+		F09F66FA17FAD77400CBEADE /* FBTestSession+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F65F017FAD77300CBEADE /* FBTestSession+Internal.h */; };
+		F09F66FB17FAD77400CBEADE /* FBTestSession.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F65F117FAD77300CBEADE /* FBTestSession.m */; };
+		F09F66FC17FAD77400CBEADE /* FBTestSession.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F65F217FAD77300CBEADE /* FBTestSession.h */; };
+		F09F66FD17FAD77400CBEADE /* FBTaskCompletionSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F65F317FAD77300CBEADE /* FBTaskCompletionSource.m */; };
+		F09F66FE17FAD77400CBEADE /* FBTaskCompletionSource.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F65F417FAD77300CBEADE /* FBTaskCompletionSource.h */; };
+		F09F66FF17FAD77400CBEADE /* FBTask+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F65F517FAD77300CBEADE /* FBTask+Private.h */; };
+		F09F670017FAD77400CBEADE /* FBTask.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F65F617FAD77300CBEADE /* FBTask.m */; };
+		F09F670117FAD77400CBEADE /* FBTask.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F65F717FAD77300CBEADE /* FBTask.h */; };
+		F09F670217FAD77400CBEADE /* FBSystemAccountStoreAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F65F817FAD77300CBEADE /* FBSystemAccountStoreAdapter.m */; };
+		F09F670317FAD77400CBEADE /* FBSystemAccountStoreAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F65F917FAD77300CBEADE /* FBSystemAccountStoreAdapter.h */; };
+		F09F670417FAD77400CBEADE /* FBShareDialogParams.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F65FA17FAD77300CBEADE /* FBShareDialogParams.m */; };
+		F09F670517FAD77400CBEADE /* FBShareDialogParams.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F65FB17FAD77300CBEADE /* FBShareDialogParams.h */; };
+		F09F670617FAD77400CBEADE /* FBSettings+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F65FC17FAD77300CBEADE /* FBSettings+Internal.h */; };
+		F09F670717FAD77400CBEADE /* FBSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F65FD17FAD77300CBEADE /* FBSettings.m */; };
+		F09F670817FAD77400CBEADE /* FBSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F65FE17FAD77300CBEADE /* FBSettings.h */; };
+		F09F670917FAD77400CBEADE /* FBSessionUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F65FF17FAD77300CBEADE /* FBSessionUtility.m */; };
+		F09F670A17FAD77400CBEADE /* FBSessionUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F660017FAD77300CBEADE /* FBSessionUtility.h */; };
+		F09F670B17FAD77400CBEADE /* FBSessionTokenCachingStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F660117FAD77300CBEADE /* FBSessionTokenCachingStrategy.m */; };
+		F09F670C17FAD77400CBEADE /* FBSessionTokenCachingStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F660217FAD77300CBEADE /* FBSessionTokenCachingStrategy.h */; };
+		F09F670D17FAD77400CBEADE /* FBSessionSystemLoginStategy.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F660317FAD77300CBEADE /* FBSessionSystemLoginStategy.m */; };
+		F09F670E17FAD77400CBEADE /* FBSessionSystemLoginStategy.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F660417FAD77300CBEADE /* FBSessionSystemLoginStategy.h */; };
+		F09F670F17FAD77400CBEADE /* FBSessionSafariLoginStategy.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F660517FAD77300CBEADE /* FBSessionSafariLoginStategy.m */; };
+		F09F671017FAD77400CBEADE /* FBSessionSafariLoginStategy.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F660617FAD77300CBEADE /* FBSessionSafariLoginStategy.h */; };
+		F09F671117FAD77400CBEADE /* FBSessionManualTokenCachingStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F660717FAD77300CBEADE /* FBSessionManualTokenCachingStrategy.m */; };
+		F09F671217FAD77400CBEADE /* FBSessionManualTokenCachingStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F660817FAD77300CBEADE /* FBSessionManualTokenCachingStrategy.h */; };
+		F09F671317FAD77400CBEADE /* FBSessionLoginStrategyParams.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F660917FAD77300CBEADE /* FBSessionLoginStrategyParams.m */; };
+		F09F671417FAD77400CBEADE /* FBSessionLoginStrategyParams.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F660A17FAD77300CBEADE /* FBSessionLoginStrategyParams.h */; };
+		F09F671517FAD77400CBEADE /* FBSessionLoginStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F660B17FAD77300CBEADE /* FBSessionLoginStrategy.h */; };
+		F09F671617FAD77400CBEADE /* FBSessionInsightsState.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F660C17FAD77300CBEADE /* FBSessionInsightsState.m */; };
+		F09F671717FAD77400CBEADE /* FBSessionInsightsState.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F660D17FAD77300CBEADE /* FBSessionInsightsState.h */; };
+		F09F671817FAD77400CBEADE /* FBSessionInlineWebViewLoginStategy.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F660E17FAD77300CBEADE /* FBSessionInlineWebViewLoginStategy.m */; };
+		F09F671917FAD77400CBEADE /* FBSessionInlineWebViewLoginStategy.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F660F17FAD77300CBEADE /* FBSessionInlineWebViewLoginStategy.h */; };
+		F09F671A17FAD77400CBEADE /* FBSessionFacebookAppWebLoginStategy.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F661017FAD77300CBEADE /* FBSessionFacebookAppWebLoginStategy.m */; };
+		F09F671B17FAD77400CBEADE /* FBSessionFacebookAppWebLoginStategy.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F661117FAD77300CBEADE /* FBSessionFacebookAppWebLoginStategy.h */; };
+		F09F671C17FAD77400CBEADE /* FBSessionFacebookAppNativeLoginStategy.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F661217FAD77300CBEADE /* FBSessionFacebookAppNativeLoginStategy.m */; };
+		F09F671D17FAD77400CBEADE /* FBSessionFacebookAppNativeLoginStategy.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F661317FAD77300CBEADE /* FBSessionFacebookAppNativeLoginStategy.h */; };
+		F09F671E17FAD77400CBEADE /* FBSessionAuthLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F661417FAD77300CBEADE /* FBSessionAuthLogger.m */; };
+		F09F671F17FAD77400CBEADE /* FBSessionAuthLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F661517FAD77300CBEADE /* FBSessionAuthLogger.h */; };
+		F09F672017FAD77400CBEADE /* FBSessionAppSwitchingLoginStategy.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F661617FAD77300CBEADE /* FBSessionAppSwitchingLoginStategy.m */; };
+		F09F672117FAD77400CBEADE /* FBSessionAppSwitchingLoginStategy.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F661717FAD77300CBEADE /* FBSessionAppSwitchingLoginStategy.h */; };
+		F09F672217FAD77400CBEADE /* FBSessionAppEventsState.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F661817FAD77300CBEADE /* FBSessionAppEventsState.m */; };
+		F09F672317FAD77400CBEADE /* FBSessionAppEventsState.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F661917FAD77300CBEADE /* FBSessionAppEventsState.h */; };
+		F09F672417FAD77400CBEADE /* FBSession+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F661A17FAD77300CBEADE /* FBSession+Protected.h */; };
+		F09F672517FAD77400CBEADE /* FBSession+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F661B17FAD77300CBEADE /* FBSession+Internal.h */; };
+		F09F672617FAD77400CBEADE /* FBSession+FBSessionLoginStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F661C17FAD77300CBEADE /* FBSession+FBSessionLoginStrategy.h */; };
+		F09F672717FAD77400CBEADE /* FBSession.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F661D17FAD77300CBEADE /* FBSession.m */; };
+		F09F672817FAD77400CBEADE /* FBSession.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F661E17FAD77300CBEADE /* FBSession.h */; };
+		F09F672917FAD77400CBEADE /* FBSDKVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F661F17FAD77300CBEADE /* FBSDKVersion.h */; };
+		F09F672A17FAD77400CBEADE /* FBRequestMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F662017FAD77300CBEADE /* FBRequestMetadata.m */; };
+		F09F672B17FAD77400CBEADE /* FBRequestMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F662117FAD77300CBEADE /* FBRequestMetadata.h */; };
+		F09F672C17FAD77400CBEADE /* FBRequestHandlerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F662217FAD77300CBEADE /* FBRequestHandlerFactory.m */; };
+		F09F672D17FAD77400CBEADE /* FBRequestHandlerFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F662317FAD77300CBEADE /* FBRequestHandlerFactory.h */; };
+		F09F672E17FAD77400CBEADE /* FBRequestConnectionRetryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F662417FAD77300CBEADE /* FBRequestConnectionRetryManager.m */; };
+		F09F672F17FAD77400CBEADE /* FBRequestConnectionRetryManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F662517FAD77300CBEADE /* FBRequestConnectionRetryManager.h */; };
+		F09F673017FAD77400CBEADE /* FBRequestConnection+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F662617FAD77300CBEADE /* FBRequestConnection+Internal.h */; };
+		F09F673117FAD77400CBEADE /* FBRequestConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F662717FAD77300CBEADE /* FBRequestConnection.m */; };
+		F09F673217FAD77400CBEADE /* FBRequestConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F662817FAD77300CBEADE /* FBRequestConnection.h */; };
+		F09F673317FAD77400CBEADE /* FBRequestBody.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F662917FAD77300CBEADE /* FBRequestBody.m */; };
+		F09F673417FAD77400CBEADE /* FBRequestBody.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F662A17FAD77300CBEADE /* FBRequestBody.h */; };
+		F09F673517FAD77400CBEADE /* FBRequest+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F662B17FAD77300CBEADE /* FBRequest+Internal.h */; };
+		F09F673617FAD77400CBEADE /* FBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F662C17FAD77300CBEADE /* FBRequest.m */; };
+		F09F673717FAD77400CBEADE /* FBRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F662D17FAD77300CBEADE /* FBRequest.h */; };
+		F09F673817FAD77400CBEADE /* FBProfilePictureViewBlankProfileSquarePNG.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F662E17FAD77300CBEADE /* FBProfilePictureViewBlankProfileSquarePNG.m */; };
+		F09F673917FAD77400CBEADE /* FBProfilePictureViewBlankProfileSquarePNG.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F662F17FAD77300CBEADE /* FBProfilePictureViewBlankProfileSquarePNG.h */; };
+		F09F673A17FAD77400CBEADE /* FBProfilePictureViewBlankProfilePortraitPNG.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F663017FAD77300CBEADE /* FBProfilePictureViewBlankProfilePortraitPNG.m */; };
+		F09F673B17FAD77400CBEADE /* FBProfilePictureViewBlankProfilePortraitPNG.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F663117FAD77300CBEADE /* FBProfilePictureViewBlankProfilePortraitPNG.h */; };
+		F09F673C17FAD77400CBEADE /* FBProfilePictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F663217FAD77300CBEADE /* FBProfilePictureView.m */; };
+		F09F673D17FAD77400CBEADE /* FBProfilePictureView.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F663317FAD77300CBEADE /* FBProfilePictureView.h */; };
+		F09F673E17FAD77400CBEADE /* FBPlacePickerViewGenericPlacePNG.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F663417FAD77300CBEADE /* FBPlacePickerViewGenericPlacePNG.m */; };
+		F09F673F17FAD77400CBEADE /* FBPlacePickerViewGenericPlacePNG.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F663517FAD77300CBEADE /* FBPlacePickerViewGenericPlacePNG.h */; };
+		F09F674017FAD77400CBEADE /* FBPlacePickerViewController+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F663617FAD77300CBEADE /* FBPlacePickerViewController+Internal.h */; };
+		F09F674117FAD77400CBEADE /* FBPlacePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F663717FAD77300CBEADE /* FBPlacePickerViewController.m */; };
+		F09F674217FAD77400CBEADE /* FBPlacePickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F663817FAD77300CBEADE /* FBPlacePickerViewController.h */; };
+		F09F674317FAD77400CBEADE /* FBPlacePickerCacheDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F663917FAD77300CBEADE /* FBPlacePickerCacheDescriptor.m */; };
+		F09F674417FAD77400CBEADE /* FBPlacePickerCacheDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F663A17FAD77300CBEADE /* FBPlacePickerCacheDescriptor.h */; };
+		F09F674517FAD77400CBEADE /* FBOpenGraphObject.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F663B17FAD77300CBEADE /* FBOpenGraphObject.h */; };
+		F09F674617FAD77400CBEADE /* FBOpenGraphActionShareDialogParams.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F663C17FAD77300CBEADE /* FBOpenGraphActionShareDialogParams.m */; };
+		F09F674717FAD77400CBEADE /* FBOpenGraphActionShareDialogParams.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F663D17FAD77300CBEADE /* FBOpenGraphActionShareDialogParams.h */; };
+		F09F674817FAD77400CBEADE /* FBOpenGraphAction.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F663E17FAD77300CBEADE /* FBOpenGraphAction.h */; };
+		F09F674917FAD77400CBEADE /* FBNativeDialogs.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F663F17FAD77300CBEADE /* FBNativeDialogs.m */; };
+		F09F674A17FAD77400CBEADE /* FBNativeDialogs.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F664017FAD77300CBEADE /* FBNativeDialogs.h */; };
+		F09F674B17FAD77400CBEADE /* FBLoginViewButtonPressedPNG.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F664117FAD77300CBEADE /* FBLoginViewButtonPressedPNG.m */; };
+		F09F674C17FAD77400CBEADE /* FBLoginViewButtonPressedPNG.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F664217FAD77300CBEADE /* FBLoginViewButtonPressedPNG.h */; };
+		F09F674D17FAD77400CBEADE /* FBLoginViewButtonPNG.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F664317FAD77300CBEADE /* FBLoginViewButtonPNG.m */; };
+		F09F674E17FAD77400CBEADE /* FBLoginViewButtonPNG.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F664417FAD77300CBEADE /* FBLoginViewButtonPNG.h */; };
+		F09F674F17FAD77400CBEADE /* FBLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F664517FAD77300CBEADE /* FBLoginView.m */; };
+		F09F675017FAD77400CBEADE /* FBLoginView.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F664617FAD77300CBEADE /* FBLoginView.h */; };
+		F09F675117FAD77400CBEADE /* FBLoginDialogParams.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F664717FAD77300CBEADE /* FBLoginDialogParams.m */; };
+		F09F675217FAD77400CBEADE /* FBLoginDialogParams.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F664817FAD77300CBEADE /* FBLoginDialogParams.h */; };
+		F09F675317FAD77400CBEADE /* FBLoginDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F664917FAD77300CBEADE /* FBLoginDialog.m */; };
+		F09F675417FAD77400CBEADE /* FBLoginDialog.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F664A17FAD77300CBEADE /* FBLoginDialog.h */; };
+		F09F675517FAD77400CBEADE /* FBLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F664B17FAD77300CBEADE /* FBLoginButton.m */; };
+		F09F675617FAD77400CBEADE /* FBLoginButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F664C17FAD77300CBEADE /* FBLoginButton.h */; };
+		F09F675717FAD77400CBEADE /* FBLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F664D17FAD77300CBEADE /* FBLogger.m */; };
+		F09F675817FAD77400CBEADE /* FBLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F664E17FAD77300CBEADE /* FBLogger.h */; };
+		F09F675917FAD77400CBEADE /* FBInsights+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F664F17FAD77300CBEADE /* FBInsights+Internal.h */; };
+		F09F675A17FAD77400CBEADE /* FBInsights.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F665017FAD77300CBEADE /* FBInsights.m */; };
+		F09F675B17FAD77400CBEADE /* FBInsights.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F665117FAD77300CBEADE /* FBInsights.h */; };
+		F09F675C17FAD77400CBEADE /* FBImageResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F665217FAD77300CBEADE /* FBImageResourceLoader.m */; };
+		F09F675D17FAD77400CBEADE /* FBImageResourceLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F665317FAD77300CBEADE /* FBImageResourceLoader.h */; };
+		F09F675E17FAD77400CBEADE /* FBGraphUser.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F665417FAD77300CBEADE /* FBGraphUser.h */; };
+		F09F675F17FAD77400CBEADE /* FBGraphPlace.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F665517FAD77300CBEADE /* FBGraphPlace.h */; };
+		F09F676017FAD77400CBEADE /* FBGraphObjectTableSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F665617FAD77300CBEADE /* FBGraphObjectTableSelection.m */; };
+		F09F676117FAD77400CBEADE /* FBGraphObjectTableSelection.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F665717FAD77300CBEADE /* FBGraphObjectTableSelection.h */; };
+		F09F676217FAD77400CBEADE /* FBGraphObjectTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F665817FAD77300CBEADE /* FBGraphObjectTableDataSource.m */; };
+		F09F676317FAD77400CBEADE /* FBGraphObjectTableDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F665917FAD77300CBEADE /* FBGraphObjectTableDataSource.h */; };
+		F09F676417FAD77400CBEADE /* FBGraphObjectTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F665A17FAD77300CBEADE /* FBGraphObjectTableCell.m */; };
+		F09F676517FAD77400CBEADE /* FBGraphObjectTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F665B17FAD77300CBEADE /* FBGraphObjectTableCell.h */; };
+		F09F676617FAD77400CBEADE /* FBGraphObjectPagingLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F665C17FAD77300CBEADE /* FBGraphObjectPagingLoader.m */; };
+		F09F676717FAD77400CBEADE /* FBGraphObjectPagingLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F665D17FAD77300CBEADE /* FBGraphObjectPagingLoader.h */; };
+		F09F676817FAD77400CBEADE /* FBGraphObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F665E17FAD77300CBEADE /* FBGraphObject.m */; };
+		F09F676917FAD77400CBEADE /* FBGraphObject.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F665F17FAD77300CBEADE /* FBGraphObject.h */; };
+		F09F676A17FAD77400CBEADE /* FBGraphLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F666017FAD77300CBEADE /* FBGraphLocation.h */; };
+		F09F676B17FAD77400CBEADE /* FBFriendPickerViewDefaultPNG.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F666117FAD77300CBEADE /* FBFriendPickerViewDefaultPNG.m */; };
+		F09F676C17FAD77400CBEADE /* FBFriendPickerViewDefaultPNG.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F666217FAD77300CBEADE /* FBFriendPickerViewDefaultPNG.h */; };
+		F09F676D17FAD77400CBEADE /* FBFriendPickerViewController+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F666317FAD77300CBEADE /* FBFriendPickerViewController+Internal.h */; };
+		F09F676E17FAD77400CBEADE /* FBFriendPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F666417FAD77300CBEADE /* FBFriendPickerViewController.m */; };
+		F09F676F17FAD77400CBEADE /* FBFriendPickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F666517FAD77300CBEADE /* FBFriendPickerViewController.h */; };
+		F09F677017FAD77400CBEADE /* FBFriendPickerCacheDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F666617FAD77300CBEADE /* FBFriendPickerCacheDescriptor.m */; };
+		F09F677117FAD77400CBEADE /* FBFriendPickerCacheDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F666717FAD77300CBEADE /* FBFriendPickerCacheDescriptor.h */; };
+		F09F677217FAD77400CBEADE /* FBFrictionlessRequestSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F666817FAD77300CBEADE /* FBFrictionlessRequestSettings.m */; };
+		F09F677317FAD77400CBEADE /* FBFrictionlessRequestSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F666917FAD77300CBEADE /* FBFrictionlessRequestSettings.h */; };
+		F09F677417FAD77400CBEADE /* FBFrictionlessRecipientCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F666A17FAD77300CBEADE /* FBFrictionlessRecipientCache.m */; };
+		F09F677517FAD77400CBEADE /* FBFrictionlessRecipientCache.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F666B17FAD77300CBEADE /* FBFrictionlessRecipientCache.h */; };
+		F09F677617FAD77400CBEADE /* FBFrictionlessDialogSupportDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F666C17FAD77300CBEADE /* FBFrictionlessDialogSupportDelegate.h */; };
+		F09F677717FAD77400CBEADE /* FBFetchedAppSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F666D17FAD77300CBEADE /* FBFetchedAppSettings.m */; };
+		F09F677817FAD77400CBEADE /* FBFetchedAppSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F666E17FAD77300CBEADE /* FBFetchedAppSettings.h */; };
+		F09F677917FAD77400CBEADE /* FBErrorUtility+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F666F17FAD77300CBEADE /* FBErrorUtility+Internal.h */; };
+		F09F677A17FAD77400CBEADE /* FBErrorUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F667017FAD77300CBEADE /* FBErrorUtility.m */; };
+		F09F677B17FAD77400CBEADE /* FBErrorUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F667117FAD77300CBEADE /* FBErrorUtility.h */; };
+		F09F677C17FAD77400CBEADE /* FBError.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F667217FAD77300CBEADE /* FBError.m */; };
+		F09F677D17FAD77400CBEADE /* FBError.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F667317FAD77300CBEADE /* FBError.h */; };
+		F09F677E17FAD77400CBEADE /* FBDynamicFrameworkLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F667417FAD77300CBEADE /* FBDynamicFrameworkLoader.m */; };
+		F09F677F17FAD77400CBEADE /* FBDynamicFrameworkLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F667517FAD77300CBEADE /* FBDynamicFrameworkLoader.h */; };
+		F09F678017FAD77400CBEADE /* FBDialogsParams+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F667617FAD77300CBEADE /* FBDialogsParams+Internal.h */; };
+		F09F678117FAD77400CBEADE /* FBDialogsParams.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F667717FAD77300CBEADE /* FBDialogsParams.m */; };
+		F09F678217FAD77400CBEADE /* FBDialogsParams.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F667817FAD77300CBEADE /* FBDialogsParams.h */; };
+		F09F678317FAD77400CBEADE /* FBDialogsData+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F667917FAD77300CBEADE /* FBDialogsData+Internal.h */; };
+		F09F678417FAD77400CBEADE /* FBDialogsData.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F667A17FAD77300CBEADE /* FBDialogsData.m */; };
+		F09F678517FAD77400CBEADE /* FBDialogsData.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F667B17FAD77300CBEADE /* FBDialogsData.h */; };
+		F09F678617FAD77400CBEADE /* FBDialogs+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F667C17FAD77300CBEADE /* FBDialogs+Internal.h */; };
+		F09F678717FAD77400CBEADE /* FBDialogs.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F667D17FAD77300CBEADE /* FBDialogs.m */; };
+		F09F678817FAD77400CBEADE /* FBDialogs.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F667E17FAD77300CBEADE /* FBDialogs.h */; };
+		F09F678917FAD77400CBEADE /* FBDialogClosePNG.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F667F17FAD77300CBEADE /* FBDialogClosePNG.m */; };
+		F09F678A17FAD77400CBEADE /* FBDialogClosePNG.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F668017FAD77300CBEADE /* FBDialogClosePNG.h */; };
+		F09F678B17FAD77400CBEADE /* FBDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F668117FAD77300CBEADE /* FBDialog.m */; };
+		F09F678C17FAD77400CBEADE /* FBDialog.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F668217FAD77300CBEADE /* FBDialog.h */; };
+		F09F678D17FAD77400CBEADE /* FBDataDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F668317FAD77300CBEADE /* FBDataDiskCache.m */; };
+		F09F678E17FAD77400CBEADE /* FBDataDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F668417FAD77300CBEADE /* FBDataDiskCache.h */; };
+		F09F678F17FAD77400CBEADE /* FBConnect.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F668517FAD77300CBEADE /* FBConnect.h */; };
+		F09F679017FAD77400CBEADE /* FBCacheIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F668617FAD77300CBEADE /* FBCacheIndex.m */; };
+		F09F679117FAD77400CBEADE /* FBCacheIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F668717FAD77300CBEADE /* FBCacheIndex.h */; };
+		F09F679217FAD77400CBEADE /* FBCacheDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F668817FAD77300CBEADE /* FBCacheDescriptor.m */; };
+		F09F679317FAD77400CBEADE /* FBCacheDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F668917FAD77300CBEADE /* FBCacheDescriptor.h */; };
+		F09F679417FAD77400CBEADE /* FBAppLinkData+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F668A17FAD77300CBEADE /* FBAppLinkData+Internal.h */; };
+		F09F679517FAD77400CBEADE /* FBAppLinkData.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F668B17FAD77300CBEADE /* FBAppLinkData.m */; };
+		F09F679617FAD77400CBEADE /* FBAppLinkData.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F668C17FAD77300CBEADE /* FBAppLinkData.h */; };
+		F09F679717FAD77400CBEADE /* FBAppEvents+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F668D17FAD77300CBEADE /* FBAppEvents+Internal.h */; };
+		F09F679817FAD77400CBEADE /* FBAppEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F668E17FAD77300CBEADE /* FBAppEvents.m */; };
+		F09F679917FAD77400CBEADE /* FBAppEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F668F17FAD77300CBEADE /* FBAppEvents.h */; };
+		F09F679A17FAD77400CBEADE /* FBAppCall+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F669017FAD77300CBEADE /* FBAppCall+Internal.h */; };
+		F09F679B17FAD77400CBEADE /* FBAppCall.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F669117FAD77300CBEADE /* FBAppCall.m */; };
+		F09F679C17FAD77400CBEADE /* FBAppCall.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F669217FAD77300CBEADE /* FBAppCall.h */; };
+		F09F679D17FAD77400CBEADE /* FBAppBridgeTypeToJSONConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F669317FAD77300CBEADE /* FBAppBridgeTypeToJSONConverter.m */; };
+		F09F679E17FAD77400CBEADE /* FBAppBridgeTypeToJSONConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F669417FAD77300CBEADE /* FBAppBridgeTypeToJSONConverter.h */; };
+		F09F679F17FAD77400CBEADE /* FBAppBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F669517FAD77300CBEADE /* FBAppBridge.m */; };
+		F09F67A017FAD77400CBEADE /* FBAppBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F669617FAD77300CBEADE /* FBAppBridge.h */; };
+		F09F67A117FAD77400CBEADE /* FBAccessTokenData+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F669717FAD77300CBEADE /* FBAccessTokenData+Internal.h */; };
+		F09F67A217FAD77400CBEADE /* FBAccessTokenData.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F669817FAD77300CBEADE /* FBAccessTokenData.m */; };
+		F09F67A317FAD77400CBEADE /* FBAccessTokenData.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F669917FAD77300CBEADE /* FBAccessTokenData.h */; };
+		F09F67B917FAD77400CBEADE /* FacebookSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F66B417FAD77300CBEADE /* FacebookSDK.h */; };
+		F09F67BA17FAD77400CBEADE /* Facebook.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F66B517FAD77300CBEADE /* Facebook.m */; };
+		F09F67BB17FAD77400CBEADE /* Facebook.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F66B617FAD77300CBEADE /* Facebook.h */; };
+		F09F67BC17FAD77400CBEADE /* facebook_ios_sdk_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = F09F66BC17FAD77400CBEADE /* facebook_ios_sdk_Prefix.pch */; };
+		F09F67BD17FAD77400CBEADE /* FBCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F66BE17FAD77400CBEADE /* FBCrypto.h */; };
+		F09F67BE17FAD77400CBEADE /* FBCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F66BF17FAD77400CBEADE /* FBCrypto.m */; };
+		F09F67BF17FAD77400CBEADE /* FBBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F66C117FAD77400CBEADE /* FBBase64.h */; };
+		F09F67C017FAD77400CBEADE /* FBBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = F09F66C217FAD77400CBEADE /* FBBase64.m */; };
+		F0CB640017FAC4CF00CE72E1 /* FacebookModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* FacebookModuleAssets.m */; };
+		F0CB640217FAC4CF00CE72E1 /* FacebookModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* FacebookModule.m */; };
+		F0CB640417FAC4CF00CE72E1 /* TiFacebookLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D15604916B34AA200D43852 /* TiFacebookLoginButton.m */; };
+		F0CB640617FAC4CF00CE72E1 /* TiFacebookLoginButtonProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D15604B16B34AA200D43852 /* TiFacebookLoginButtonProxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -142,110 +238,34 @@
 			remoteGlobalIDString = D2AAC07D0554694100DB518D;
 			remoteInfo = Facebook;
 		};
+		F09F67C417FAD77400CBEADE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F09F66B717FAD77300CBEADE /* facebook-ios-sdk.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = "facebook-ios-sdk";
+		};
+		F09F67C617FAD77400CBEADE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F09F66B717FAD77300CBEADE /* facebook-ios-sdk.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B9CBC519152537270036AA71;
+			remoteInfo = FacebookSDKTests;
+		};
+		F09F67C817FAD77400CBEADE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F09F66B717FAD77300CBEADE /* facebook-ios-sdk.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 85A44B9F16A8CE05007BE80E;
+			remoteInfo = FacebookSDKIntegrationTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1D155F8B16B34A5100D43852 /* Facebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facebook.h; sourceTree = "<group>"; };
-		1D155F8C16B34A5100D43852 /* Facebook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Facebook.m; sourceTree = "<group>"; };
-		1D155F8D16B34A5100D43852 /* FacebookSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookSDK.h; sourceTree = "<group>"; };
-		1D155F8E16B34A5100D43852 /* FBCacheDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBCacheDescriptor.h; sourceTree = "<group>"; };
-		1D155F8F16B34A5100D43852 /* FBCacheDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBCacheDescriptor.m; sourceTree = "<group>"; };
-		1D155F9016B34A5100D43852 /* FBCacheIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBCacheIndex.h; sourceTree = "<group>"; };
-		1D155F9116B34A5100D43852 /* FBCacheIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBCacheIndex.m; sourceTree = "<group>"; };
-		1D155F9216B34A5100D43852 /* FBConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBConnect.h; sourceTree = "<group>"; };
-		1D155F9316B34A5100D43852 /* FBContentLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBContentLink.h; sourceTree = "<group>"; };
-		1D155F9416B34A5100D43852 /* FBContentLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBContentLink.m; sourceTree = "<group>"; };
-		1D155F9516B34A5100D43852 /* FBDataDiskCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDataDiskCache.h; sourceTree = "<group>"; };
-		1D155F9616B34A5100D43852 /* FBDataDiskCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBDataDiskCache.m; sourceTree = "<group>"; };
-		1D155F9716B34A5100D43852 /* FBDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDialog.h; sourceTree = "<group>"; };
-		1D155F9816B34A5100D43852 /* FBDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBDialog.m; sourceTree = "<group>"; };
-		1D155F9916B34A5100D43852 /* FBError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBError.h; sourceTree = "<group>"; };
-		1D155F9A16B34A5100D43852 /* FBError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBError.m; sourceTree = "<group>"; };
-		1D155F9B16B34A5100D43852 /* FBFrictionlessRequestSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBFrictionlessRequestSettings.h; sourceTree = "<group>"; };
-		1D155F9C16B34A5100D43852 /* FBFrictionlessRequestSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBFrictionlessRequestSettings.m; sourceTree = "<group>"; };
-		1D155F9D16B34A5100D43852 /* FBFriendPickerCacheDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBFriendPickerCacheDescriptor.h; sourceTree = "<group>"; };
-		1D155F9E16B34A5100D43852 /* FBFriendPickerCacheDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBFriendPickerCacheDescriptor.m; sourceTree = "<group>"; };
-		1D155F9F16B34A5100D43852 /* FBFriendPickerViewController+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBFriendPickerViewController+Internal.h"; sourceTree = "<group>"; };
-		1D155FA016B34A5100D43852 /* FBFriendPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBFriendPickerViewController.h; sourceTree = "<group>"; };
-		1D155FA116B34A5100D43852 /* FBFriendPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBFriendPickerViewController.m; sourceTree = "<group>"; };
-		1D155FA216B34A5100D43852 /* FBGraphLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBGraphLocation.h; sourceTree = "<group>"; };
-		1D155FA316B34A5100D43852 /* FBGraphObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBGraphObject.h; sourceTree = "<group>"; };
-		1D155FA416B34A5100D43852 /* FBGraphObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBGraphObject.m; sourceTree = "<group>"; };
-		1D155FA516B34A5100D43852 /* FBGraphObjectPagingLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBGraphObjectPagingLoader.h; sourceTree = "<group>"; };
-		1D155FA616B34A5100D43852 /* FBGraphObjectPagingLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBGraphObjectPagingLoader.m; sourceTree = "<group>"; };
-		1D155FA716B34A5100D43852 /* FBGraphObjectTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBGraphObjectTableCell.h; sourceTree = "<group>"; };
-		1D155FA816B34A5100D43852 /* FBGraphObjectTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBGraphObjectTableCell.m; sourceTree = "<group>"; };
-		1D155FA916B34A5100D43852 /* FBGraphObjectTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBGraphObjectTableDataSource.h; sourceTree = "<group>"; };
-		1D155FAA16B34A5100D43852 /* FBGraphObjectTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBGraphObjectTableDataSource.m; sourceTree = "<group>"; };
-		1D155FAB16B34A5100D43852 /* FBGraphObjectTableSelection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBGraphObjectTableSelection.h; sourceTree = "<group>"; };
-		1D155FAC16B34A5100D43852 /* FBGraphObjectTableSelection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBGraphObjectTableSelection.m; sourceTree = "<group>"; };
-		1D155FAD16B34A5100D43852 /* FBGraphPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBGraphPlace.h; sourceTree = "<group>"; };
-		1D155FAE16B34A5100D43852 /* FBGraphUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBGraphUser.h; sourceTree = "<group>"; };
-		1D155FAF16B34A5100D43852 /* FBLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLogger.h; sourceTree = "<group>"; };
-		1D155FB016B34A5100D43852 /* FBLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLogger.m; sourceTree = "<group>"; };
-		1D155FB116B34A5100D43852 /* FBLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginButton.h; sourceTree = "<group>"; };
-		1D155FB216B34A5100D43852 /* FBLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLoginButton.m; sourceTree = "<group>"; };
-		1D155FB316B34A5100D43852 /* FBLoginDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginDialog.h; sourceTree = "<group>"; };
-		1D155FB416B34A5100D43852 /* FBLoginDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLoginDialog.m; sourceTree = "<group>"; };
-		1D155FB516B34A5100D43852 /* FBLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginView.h; sourceTree = "<group>"; };
-		1D155FB616B34A5100D43852 /* FBLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLoginView.m; sourceTree = "<group>"; };
-		1D155FB716B34A5100D43852 /* FBNativeDialogs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBNativeDialogs.h; sourceTree = "<group>"; };
-		1D155FB816B34A5100D43852 /* FBNativeDialogs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBNativeDialogs.m; sourceTree = "<group>"; };
-		1D155FB916B34A5100D43852 /* FBOpenGraphAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBOpenGraphAction.h; sourceTree = "<group>"; };
-		1D155FBA16B34A5100D43852 /* FBPlacePickerCacheDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBPlacePickerCacheDescriptor.h; sourceTree = "<group>"; };
-		1D155FBB16B34A5100D43852 /* FBPlacePickerCacheDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBPlacePickerCacheDescriptor.m; sourceTree = "<group>"; };
-		1D155FBC16B34A5100D43852 /* FBPlacePickerViewController+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBPlacePickerViewController+Internal.h"; sourceTree = "<group>"; };
-		1D155FBD16B34A5100D43852 /* FBPlacePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBPlacePickerViewController.h; sourceTree = "<group>"; };
-		1D155FBE16B34A5100D43852 /* FBPlacePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBPlacePickerViewController.m; sourceTree = "<group>"; };
-		1D155FBF16B34A5100D43852 /* FBProfilePictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBProfilePictureView.h; sourceTree = "<group>"; };
-		1D155FC016B34A5100D43852 /* FBProfilePictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBProfilePictureView.m; sourceTree = "<group>"; };
-		1D155FC116B34A5100D43852 /* FBRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRequest.h; sourceTree = "<group>"; };
-		1D155FC216B34A5100D43852 /* FBRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBRequest.m; sourceTree = "<group>"; };
-		1D155FC316B34A5100D43852 /* FBRequestBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRequestBody.h; sourceTree = "<group>"; };
-		1D155FC416B34A5100D43852 /* FBRequestBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBRequestBody.m; sourceTree = "<group>"; };
-		1D155FC516B34A5100D43852 /* FBRequestConnection+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBRequestConnection+Internal.h"; sourceTree = "<group>"; };
-		1D155FC616B34A5100D43852 /* FBRequestConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRequestConnection.h; sourceTree = "<group>"; };
-		1D155FC716B34A5100D43852 /* FBRequestConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBRequestConnection.m; sourceTree = "<group>"; };
-		1D155FC816B34A5100D43852 /* FBSDKVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSDKVersion.h; sourceTree = "<group>"; };
-		1D155FC916B34A5100D43852 /* FBSession+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBSession+Internal.h"; sourceTree = "<group>"; };
-		1D155FCA16B34A5100D43852 /* FBSession+Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBSession+Protected.h"; sourceTree = "<group>"; };
-		1D155FCB16B34A5100D43852 /* FBSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSession.h; sourceTree = "<group>"; };
-		1D155FCC16B34A5100D43852 /* FBSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSession.m; sourceTree = "<group>"; };
-		1D155FCD16B34A5100D43852 /* FBSessionManualTokenCachingStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSessionManualTokenCachingStrategy.h; sourceTree = "<group>"; };
-		1D155FCE16B34A5100D43852 /* FBSessionManualTokenCachingStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSessionManualTokenCachingStrategy.m; sourceTree = "<group>"; };
-		1D155FCF16B34A5100D43852 /* FBSessionTokenCachingStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSessionTokenCachingStrategy.h; sourceTree = "<group>"; };
-		1D155FD016B34A5100D43852 /* FBSessionTokenCachingStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSessionTokenCachingStrategy.m; sourceTree = "<group>"; };
-		1D155FD116B34A5100D43852 /* FBSettings+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBSettings+Internal.h"; sourceTree = "<group>"; };
-		1D155FD216B34A5100D43852 /* FBSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSettings.h; sourceTree = "<group>"; };
-		1D155FD316B34A5100D43852 /* FBSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSettings.m; sourceTree = "<group>"; };
-		1D155FD416B34A5100D43852 /* FBTestSession+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBTestSession+Internal.h"; sourceTree = "<group>"; };
-		1D155FD516B34A5100D43852 /* FBTestSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTestSession.h; sourceTree = "<group>"; };
-		1D155FD616B34A5100D43852 /* FBTestSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTestSession.m; sourceTree = "<group>"; };
-		1D155FD716B34A5100D43852 /* FBURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBURLConnection.h; sourceTree = "<group>"; };
-		1D155FD816B34A5100D43852 /* FBURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBURLConnection.m; sourceTree = "<group>"; };
-		1D155FD916B34A5100D43852 /* FBUserSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBUserSettingsViewController.h; sourceTree = "<group>"; };
-		1D155FDA16B34A5100D43852 /* FBUserSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBUserSettingsViewController.m; sourceTree = "<group>"; };
-		1D155FDB16B34A5100D43852 /* FBUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBUtility.h; sourceTree = "<group>"; };
-		1D155FDC16B34A5100D43852 /* FBUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBUtility.m; sourceTree = "<group>"; };
-		1D155FDD16B34A5100D43852 /* FBViewController+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBViewController+Internal.h"; sourceTree = "<group>"; };
-		1D155FDE16B34A5100D43852 /* FBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBViewController.h; sourceTree = "<group>"; };
-		1D155FDF16B34A5100D43852 /* FBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBViewController.m; sourceTree = "<group>"; };
-		1D155FE116B34A5100D43852 /* FBSBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSBJSON.h; sourceTree = "<group>"; };
-		1D155FE216B34A5100D43852 /* FBSBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSBJSON.m; sourceTree = "<group>"; };
-		1D155FE316B34A5100D43852 /* FBSBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSBJsonBase.h; sourceTree = "<group>"; };
-		1D155FE416B34A5100D43852 /* FBSBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSBJsonBase.m; sourceTree = "<group>"; };
-		1D155FE516B34A5100D43852 /* FBSBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSBJsonParser.h; sourceTree = "<group>"; };
-		1D155FE616B34A5100D43852 /* FBSBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSBJsonParser.m; sourceTree = "<group>"; };
-		1D155FE716B34A5100D43852 /* FBSBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSBJsonWriter.h; sourceTree = "<group>"; };
-		1D155FE816B34A5100D43852 /* FBSBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSBJsonWriter.m; sourceTree = "<group>"; };
-		1D15604616B34AA200D43852 /* TiFacebookDialogRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = TiFacebookDialogRequest.h; path = Classes/TiFacebookDialogRequest.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		1D15604716B34AA200D43852 /* TiFacebookDialogRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = TiFacebookDialogRequest.m; path = Classes/TiFacebookDialogRequest.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		1D15604816B34AA200D43852 /* TiFacebookLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = TiFacebookLoginButton.h; path = Classes/TiFacebookLoginButton.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		1D15604916B34AA200D43852 /* TiFacebookLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = TiFacebookLoginButton.m; path = Classes/TiFacebookLoginButton.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		1D15604A16B34AA200D43852 /* TiFacebookLoginButtonProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = TiFacebookLoginButtonProxy.h; path = Classes/TiFacebookLoginButtonProxy.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		1D15604B16B34AA200D43852 /* TiFacebookLoginButtonProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = TiFacebookLoginButtonProxy.m; path = Classes/TiFacebookLoginButtonProxy.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		1D15605216B34AC800D43852 /* TiFacebookRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = TiFacebookRequest.h; path = Classes/TiFacebookRequest.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		1D15605316B34AC800D43852 /* TiFacebookRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = TiFacebookRequest.m; path = Classes/TiFacebookRequest.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		1D15605916B3615100D43852 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		1D15605A16B3615100D43852 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		1D15605B16B3615100D43852 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
@@ -257,6 +277,218 @@
 		AA747D9E0F9514B9006C5449 /* Facebook_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facebook_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libFacebook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFacebook.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F01DE44017FAB39D00AE306A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		F01DE44217FAB3A700AE306A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F04DFB2617F9B6E400F2BE4F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F09F65CB17FAD77300CBEADE /* 01package-contents.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "01package-contents.xml"; sourceTree = "<group>"; };
+		F09F65CC17FAD77300CBEADE /* 01package.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 01package.xml; sourceTree = "<group>"; };
+		F09F65CD17FAD77300CBEADE /* index.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = index.xml; sourceTree = "<group>"; };
+		F09F65CE17FAD77300CBEADE /* NSError+FBError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+FBError.m"; sourceTree = "<group>"; };
+		F09F65CF17FAD77300CBEADE /* NSError+FBError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+FBError.h"; sourceTree = "<group>"; };
+		F09F65D017FAD77300CBEADE /* libfacebook_ios_sdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfacebook_ios_sdk.a; sourceTree = "<group>"; };
+		F09F65D317FAD77300CBEADE /* FBDialogClose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FBDialogClose.png; sourceTree = "<group>"; };
+		F09F65D417FAD77300CBEADE /* FBDialogClose@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FBDialogClose@2x.png"; sourceTree = "<group>"; };
+		F09F65D617FAD77300CBEADE /* FBFriendPickerViewDefault.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FBFriendPickerViewDefault.png; sourceTree = "<group>"; };
+		F09F65D817FAD77300CBEADE /* FBLoginViewButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FBLoginViewButton.png; sourceTree = "<group>"; };
+		F09F65D917FAD77300CBEADE /* FBLoginViewButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FBLoginViewButton@2x.png"; sourceTree = "<group>"; };
+		F09F65DA17FAD77300CBEADE /* FBLoginViewButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FBLoginViewButtonPressed.png; sourceTree = "<group>"; };
+		F09F65DB17FAD77300CBEADE /* FBLoginViewButtonPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FBLoginViewButtonPressed@2x.png"; sourceTree = "<group>"; };
+		F09F65DD17FAD77300CBEADE /* FBPlacePickerViewGenericPlace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FBPlacePickerViewGenericPlace.png; sourceTree = "<group>"; };
+		F09F65DF17FAD77300CBEADE /* FBProfilePictureViewBlankProfilePortrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FBProfilePictureViewBlankProfilePortrait.png; sourceTree = "<group>"; };
+		F09F65E017FAD77300CBEADE /* FBProfilePictureViewBlankProfileSquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FBProfilePictureViewBlankProfileSquare.png; sourceTree = "<group>"; };
+		F09F65E317FAD77300CBEADE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F09F65E417FAD77300CBEADE /* FBWebDialogs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBWebDialogs.m; sourceTree = "<group>"; };
+		F09F65E517FAD77300CBEADE /* FBWebDialogs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBWebDialogs.h; sourceTree = "<group>"; };
+		F09F65E617FAD77300CBEADE /* FBViewController+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBViewController+Internal.h"; sourceTree = "<group>"; };
+		F09F65E717FAD77300CBEADE /* FBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBViewController.m; sourceTree = "<group>"; };
+		F09F65E817FAD77300CBEADE /* FBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBViewController.h; sourceTree = "<group>"; };
+		F09F65E917FAD77300CBEADE /* FBUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBUtility.m; sourceTree = "<group>"; };
+		F09F65EA17FAD77300CBEADE /* FBUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBUtility.h; sourceTree = "<group>"; };
+		F09F65EB17FAD77300CBEADE /* FBUserSettingsViewResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBUserSettingsViewResources.bundle; sourceTree = "<group>"; };
+		F09F65EC17FAD77300CBEADE /* FBUserSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBUserSettingsViewController.m; sourceTree = "<group>"; };
+		F09F65ED17FAD77300CBEADE /* FBUserSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBUserSettingsViewController.h; sourceTree = "<group>"; };
+		F09F65EE17FAD77300CBEADE /* FBURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBURLConnection.m; sourceTree = "<group>"; };
+		F09F65EF17FAD77300CBEADE /* FBURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBURLConnection.h; sourceTree = "<group>"; };
+		F09F65F017FAD77300CBEADE /* FBTestSession+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBTestSession+Internal.h"; sourceTree = "<group>"; };
+		F09F65F117FAD77300CBEADE /* FBTestSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTestSession.m; sourceTree = "<group>"; };
+		F09F65F217FAD77300CBEADE /* FBTestSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTestSession.h; sourceTree = "<group>"; };
+		F09F65F317FAD77300CBEADE /* FBTaskCompletionSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTaskCompletionSource.m; sourceTree = "<group>"; };
+		F09F65F417FAD77300CBEADE /* FBTaskCompletionSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTaskCompletionSource.h; sourceTree = "<group>"; };
+		F09F65F517FAD77300CBEADE /* FBTask+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBTask+Private.h"; sourceTree = "<group>"; };
+		F09F65F617FAD77300CBEADE /* FBTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTask.m; sourceTree = "<group>"; };
+		F09F65F717FAD77300CBEADE /* FBTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTask.h; sourceTree = "<group>"; };
+		F09F65F817FAD77300CBEADE /* FBSystemAccountStoreAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSystemAccountStoreAdapter.m; sourceTree = "<group>"; };
+		F09F65F917FAD77300CBEADE /* FBSystemAccountStoreAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSystemAccountStoreAdapter.h; sourceTree = "<group>"; };
+		F09F65FA17FAD77300CBEADE /* FBShareDialogParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShareDialogParams.m; sourceTree = "<group>"; };
+		F09F65FB17FAD77300CBEADE /* FBShareDialogParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShareDialogParams.h; sourceTree = "<group>"; };
+		F09F65FC17FAD77300CBEADE /* FBSettings+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBSettings+Internal.h"; sourceTree = "<group>"; };
+		F09F65FD17FAD77300CBEADE /* FBSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSettings.m; sourceTree = "<group>"; };
+		F09F65FE17FAD77300CBEADE /* FBSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSettings.h; sourceTree = "<group>"; };
+		F09F65FF17FAD77300CBEADE /* FBSessionUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSessionUtility.m; sourceTree = "<group>"; };
+		F09F660017FAD77300CBEADE /* FBSessionUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSessionUtility.h; sourceTree = "<group>"; };
+		F09F660117FAD77300CBEADE /* FBSessionTokenCachingStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSessionTokenCachingStrategy.m; sourceTree = "<group>"; };
+		F09F660217FAD77300CBEADE /* FBSessionTokenCachingStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSessionTokenCachingStrategy.h; sourceTree = "<group>"; };
+		F09F660317FAD77300CBEADE /* FBSessionSystemLoginStategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSessionSystemLoginStategy.m; sourceTree = "<group>"; };
+		F09F660417FAD77300CBEADE /* FBSessionSystemLoginStategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSessionSystemLoginStategy.h; sourceTree = "<group>"; };
+		F09F660517FAD77300CBEADE /* FBSessionSafariLoginStategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSessionSafariLoginStategy.m; sourceTree = "<group>"; };
+		F09F660617FAD77300CBEADE /* FBSessionSafariLoginStategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSessionSafariLoginStategy.h; sourceTree = "<group>"; };
+		F09F660717FAD77300CBEADE /* FBSessionManualTokenCachingStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSessionManualTokenCachingStrategy.m; sourceTree = "<group>"; };
+		F09F660817FAD77300CBEADE /* FBSessionManualTokenCachingStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSessionManualTokenCachingStrategy.h; sourceTree = "<group>"; };
+		F09F660917FAD77300CBEADE /* FBSessionLoginStrategyParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSessionLoginStrategyParams.m; sourceTree = "<group>"; };
+		F09F660A17FAD77300CBEADE /* FBSessionLoginStrategyParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSessionLoginStrategyParams.h; sourceTree = "<group>"; };
+		F09F660B17FAD77300CBEADE /* FBSessionLoginStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSessionLoginStrategy.h; sourceTree = "<group>"; };
+		F09F660C17FAD77300CBEADE /* FBSessionInsightsState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSessionInsightsState.m; sourceTree = "<group>"; };
+		F09F660D17FAD77300CBEADE /* FBSessionInsightsState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSessionInsightsState.h; sourceTree = "<group>"; };
+		F09F660E17FAD77300CBEADE /* FBSessionInlineWebViewLoginStategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSessionInlineWebViewLoginStategy.m; sourceTree = "<group>"; };
+		F09F660F17FAD77300CBEADE /* FBSessionInlineWebViewLoginStategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSessionInlineWebViewLoginStategy.h; sourceTree = "<group>"; };
+		F09F661017FAD77300CBEADE /* FBSessionFacebookAppWebLoginStategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSessionFacebookAppWebLoginStategy.m; sourceTree = "<group>"; };
+		F09F661117FAD77300CBEADE /* FBSessionFacebookAppWebLoginStategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSessionFacebookAppWebLoginStategy.h; sourceTree = "<group>"; };
+		F09F661217FAD77300CBEADE /* FBSessionFacebookAppNativeLoginStategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSessionFacebookAppNativeLoginStategy.m; sourceTree = "<group>"; };
+		F09F661317FAD77300CBEADE /* FBSessionFacebookAppNativeLoginStategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSessionFacebookAppNativeLoginStategy.h; sourceTree = "<group>"; };
+		F09F661417FAD77300CBEADE /* FBSessionAuthLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSessionAuthLogger.m; sourceTree = "<group>"; };
+		F09F661517FAD77300CBEADE /* FBSessionAuthLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSessionAuthLogger.h; sourceTree = "<group>"; };
+		F09F661617FAD77300CBEADE /* FBSessionAppSwitchingLoginStategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSessionAppSwitchingLoginStategy.m; sourceTree = "<group>"; };
+		F09F661717FAD77300CBEADE /* FBSessionAppSwitchingLoginStategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSessionAppSwitchingLoginStategy.h; sourceTree = "<group>"; };
+		F09F661817FAD77300CBEADE /* FBSessionAppEventsState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSessionAppEventsState.m; sourceTree = "<group>"; };
+		F09F661917FAD77300CBEADE /* FBSessionAppEventsState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSessionAppEventsState.h; sourceTree = "<group>"; };
+		F09F661A17FAD77300CBEADE /* FBSession+Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBSession+Protected.h"; sourceTree = "<group>"; };
+		F09F661B17FAD77300CBEADE /* FBSession+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBSession+Internal.h"; sourceTree = "<group>"; };
+		F09F661C17FAD77300CBEADE /* FBSession+FBSessionLoginStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBSession+FBSessionLoginStrategy.h"; sourceTree = "<group>"; };
+		F09F661D17FAD77300CBEADE /* FBSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSession.m; sourceTree = "<group>"; };
+		F09F661E17FAD77300CBEADE /* FBSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSession.h; sourceTree = "<group>"; };
+		F09F661F17FAD77300CBEADE /* FBSDKVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSDKVersion.h; sourceTree = "<group>"; };
+		F09F662017FAD77300CBEADE /* FBRequestMetadata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBRequestMetadata.m; sourceTree = "<group>"; };
+		F09F662117FAD77300CBEADE /* FBRequestMetadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRequestMetadata.h; sourceTree = "<group>"; };
+		F09F662217FAD77300CBEADE /* FBRequestHandlerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBRequestHandlerFactory.m; sourceTree = "<group>"; };
+		F09F662317FAD77300CBEADE /* FBRequestHandlerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRequestHandlerFactory.h; sourceTree = "<group>"; };
+		F09F662417FAD77300CBEADE /* FBRequestConnectionRetryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBRequestConnectionRetryManager.m; sourceTree = "<group>"; };
+		F09F662517FAD77300CBEADE /* FBRequestConnectionRetryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRequestConnectionRetryManager.h; sourceTree = "<group>"; };
+		F09F662617FAD77300CBEADE /* FBRequestConnection+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBRequestConnection+Internal.h"; sourceTree = "<group>"; };
+		F09F662717FAD77300CBEADE /* FBRequestConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBRequestConnection.m; sourceTree = "<group>"; };
+		F09F662817FAD77300CBEADE /* FBRequestConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRequestConnection.h; sourceTree = "<group>"; };
+		F09F662917FAD77300CBEADE /* FBRequestBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBRequestBody.m; sourceTree = "<group>"; };
+		F09F662A17FAD77300CBEADE /* FBRequestBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRequestBody.h; sourceTree = "<group>"; };
+		F09F662B17FAD77300CBEADE /* FBRequest+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBRequest+Internal.h"; sourceTree = "<group>"; };
+		F09F662C17FAD77300CBEADE /* FBRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBRequest.m; sourceTree = "<group>"; };
+		F09F662D17FAD77300CBEADE /* FBRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRequest.h; sourceTree = "<group>"; };
+		F09F662E17FAD77300CBEADE /* FBProfilePictureViewBlankProfileSquarePNG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBProfilePictureViewBlankProfileSquarePNG.m; sourceTree = "<group>"; };
+		F09F662F17FAD77300CBEADE /* FBProfilePictureViewBlankProfileSquarePNG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBProfilePictureViewBlankProfileSquarePNG.h; sourceTree = "<group>"; };
+		F09F663017FAD77300CBEADE /* FBProfilePictureViewBlankProfilePortraitPNG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBProfilePictureViewBlankProfilePortraitPNG.m; sourceTree = "<group>"; };
+		F09F663117FAD77300CBEADE /* FBProfilePictureViewBlankProfilePortraitPNG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBProfilePictureViewBlankProfilePortraitPNG.h; sourceTree = "<group>"; };
+		F09F663217FAD77300CBEADE /* FBProfilePictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBProfilePictureView.m; sourceTree = "<group>"; };
+		F09F663317FAD77300CBEADE /* FBProfilePictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBProfilePictureView.h; sourceTree = "<group>"; };
+		F09F663417FAD77300CBEADE /* FBPlacePickerViewGenericPlacePNG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBPlacePickerViewGenericPlacePNG.m; sourceTree = "<group>"; };
+		F09F663517FAD77300CBEADE /* FBPlacePickerViewGenericPlacePNG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBPlacePickerViewGenericPlacePNG.h; sourceTree = "<group>"; };
+		F09F663617FAD77300CBEADE /* FBPlacePickerViewController+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBPlacePickerViewController+Internal.h"; sourceTree = "<group>"; };
+		F09F663717FAD77300CBEADE /* FBPlacePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBPlacePickerViewController.m; sourceTree = "<group>"; };
+		F09F663817FAD77300CBEADE /* FBPlacePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBPlacePickerViewController.h; sourceTree = "<group>"; };
+		F09F663917FAD77300CBEADE /* FBPlacePickerCacheDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBPlacePickerCacheDescriptor.m; sourceTree = "<group>"; };
+		F09F663A17FAD77300CBEADE /* FBPlacePickerCacheDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBPlacePickerCacheDescriptor.h; sourceTree = "<group>"; };
+		F09F663B17FAD77300CBEADE /* FBOpenGraphObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBOpenGraphObject.h; sourceTree = "<group>"; };
+		F09F663C17FAD77300CBEADE /* FBOpenGraphActionShareDialogParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBOpenGraphActionShareDialogParams.m; sourceTree = "<group>"; };
+		F09F663D17FAD77300CBEADE /* FBOpenGraphActionShareDialogParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBOpenGraphActionShareDialogParams.h; sourceTree = "<group>"; };
+		F09F663E17FAD77300CBEADE /* FBOpenGraphAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBOpenGraphAction.h; sourceTree = "<group>"; };
+		F09F663F17FAD77300CBEADE /* FBNativeDialogs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBNativeDialogs.m; sourceTree = "<group>"; };
+		F09F664017FAD77300CBEADE /* FBNativeDialogs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBNativeDialogs.h; sourceTree = "<group>"; };
+		F09F664117FAD77300CBEADE /* FBLoginViewButtonPressedPNG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLoginViewButtonPressedPNG.m; sourceTree = "<group>"; };
+		F09F664217FAD77300CBEADE /* FBLoginViewButtonPressedPNG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginViewButtonPressedPNG.h; sourceTree = "<group>"; };
+		F09F664317FAD77300CBEADE /* FBLoginViewButtonPNG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLoginViewButtonPNG.m; sourceTree = "<group>"; };
+		F09F664417FAD77300CBEADE /* FBLoginViewButtonPNG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginViewButtonPNG.h; sourceTree = "<group>"; };
+		F09F664517FAD77300CBEADE /* FBLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLoginView.m; sourceTree = "<group>"; };
+		F09F664617FAD77300CBEADE /* FBLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginView.h; sourceTree = "<group>"; };
+		F09F664717FAD77300CBEADE /* FBLoginDialogParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLoginDialogParams.m; sourceTree = "<group>"; };
+		F09F664817FAD77300CBEADE /* FBLoginDialogParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginDialogParams.h; sourceTree = "<group>"; };
+		F09F664917FAD77300CBEADE /* FBLoginDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLoginDialog.m; sourceTree = "<group>"; };
+		F09F664A17FAD77300CBEADE /* FBLoginDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginDialog.h; sourceTree = "<group>"; };
+		F09F664B17FAD77300CBEADE /* FBLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLoginButton.m; sourceTree = "<group>"; };
+		F09F664C17FAD77300CBEADE /* FBLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginButton.h; sourceTree = "<group>"; };
+		F09F664D17FAD77300CBEADE /* FBLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLogger.m; sourceTree = "<group>"; };
+		F09F664E17FAD77300CBEADE /* FBLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLogger.h; sourceTree = "<group>"; };
+		F09F664F17FAD77300CBEADE /* FBInsights+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBInsights+Internal.h"; sourceTree = "<group>"; };
+		F09F665017FAD77300CBEADE /* FBInsights.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBInsights.m; sourceTree = "<group>"; };
+		F09F665117FAD77300CBEADE /* FBInsights.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBInsights.h; sourceTree = "<group>"; };
+		F09F665217FAD77300CBEADE /* FBImageResourceLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBImageResourceLoader.m; sourceTree = "<group>"; };
+		F09F665317FAD77300CBEADE /* FBImageResourceLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBImageResourceLoader.h; sourceTree = "<group>"; };
+		F09F665417FAD77300CBEADE /* FBGraphUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBGraphUser.h; sourceTree = "<group>"; };
+		F09F665517FAD77300CBEADE /* FBGraphPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBGraphPlace.h; sourceTree = "<group>"; };
+		F09F665617FAD77300CBEADE /* FBGraphObjectTableSelection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBGraphObjectTableSelection.m; sourceTree = "<group>"; };
+		F09F665717FAD77300CBEADE /* FBGraphObjectTableSelection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBGraphObjectTableSelection.h; sourceTree = "<group>"; };
+		F09F665817FAD77300CBEADE /* FBGraphObjectTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBGraphObjectTableDataSource.m; sourceTree = "<group>"; };
+		F09F665917FAD77300CBEADE /* FBGraphObjectTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBGraphObjectTableDataSource.h; sourceTree = "<group>"; };
+		F09F665A17FAD77300CBEADE /* FBGraphObjectTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBGraphObjectTableCell.m; sourceTree = "<group>"; };
+		F09F665B17FAD77300CBEADE /* FBGraphObjectTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBGraphObjectTableCell.h; sourceTree = "<group>"; };
+		F09F665C17FAD77300CBEADE /* FBGraphObjectPagingLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBGraphObjectPagingLoader.m; sourceTree = "<group>"; };
+		F09F665D17FAD77300CBEADE /* FBGraphObjectPagingLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBGraphObjectPagingLoader.h; sourceTree = "<group>"; };
+		F09F665E17FAD77300CBEADE /* FBGraphObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBGraphObject.m; sourceTree = "<group>"; };
+		F09F665F17FAD77300CBEADE /* FBGraphObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBGraphObject.h; sourceTree = "<group>"; };
+		F09F666017FAD77300CBEADE /* FBGraphLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBGraphLocation.h; sourceTree = "<group>"; };
+		F09F666117FAD77300CBEADE /* FBFriendPickerViewDefaultPNG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBFriendPickerViewDefaultPNG.m; sourceTree = "<group>"; };
+		F09F666217FAD77300CBEADE /* FBFriendPickerViewDefaultPNG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBFriendPickerViewDefaultPNG.h; sourceTree = "<group>"; };
+		F09F666317FAD77300CBEADE /* FBFriendPickerViewController+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBFriendPickerViewController+Internal.h"; sourceTree = "<group>"; };
+		F09F666417FAD77300CBEADE /* FBFriendPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBFriendPickerViewController.m; sourceTree = "<group>"; };
+		F09F666517FAD77300CBEADE /* FBFriendPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBFriendPickerViewController.h; sourceTree = "<group>"; };
+		F09F666617FAD77300CBEADE /* FBFriendPickerCacheDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBFriendPickerCacheDescriptor.m; sourceTree = "<group>"; };
+		F09F666717FAD77300CBEADE /* FBFriendPickerCacheDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBFriendPickerCacheDescriptor.h; sourceTree = "<group>"; };
+		F09F666817FAD77300CBEADE /* FBFrictionlessRequestSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBFrictionlessRequestSettings.m; sourceTree = "<group>"; };
+		F09F666917FAD77300CBEADE /* FBFrictionlessRequestSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBFrictionlessRequestSettings.h; sourceTree = "<group>"; };
+		F09F666A17FAD77300CBEADE /* FBFrictionlessRecipientCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBFrictionlessRecipientCache.m; sourceTree = "<group>"; };
+		F09F666B17FAD77300CBEADE /* FBFrictionlessRecipientCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBFrictionlessRecipientCache.h; sourceTree = "<group>"; };
+		F09F666C17FAD77300CBEADE /* FBFrictionlessDialogSupportDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBFrictionlessDialogSupportDelegate.h; sourceTree = "<group>"; };
+		F09F666D17FAD77300CBEADE /* FBFetchedAppSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBFetchedAppSettings.m; sourceTree = "<group>"; };
+		F09F666E17FAD77300CBEADE /* FBFetchedAppSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBFetchedAppSettings.h; sourceTree = "<group>"; };
+		F09F666F17FAD77300CBEADE /* FBErrorUtility+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBErrorUtility+Internal.h"; sourceTree = "<group>"; };
+		F09F667017FAD77300CBEADE /* FBErrorUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBErrorUtility.m; sourceTree = "<group>"; };
+		F09F667117FAD77300CBEADE /* FBErrorUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBErrorUtility.h; sourceTree = "<group>"; };
+		F09F667217FAD77300CBEADE /* FBError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBError.m; sourceTree = "<group>"; };
+		F09F667317FAD77300CBEADE /* FBError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBError.h; sourceTree = "<group>"; };
+		F09F667417FAD77300CBEADE /* FBDynamicFrameworkLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBDynamicFrameworkLoader.m; sourceTree = "<group>"; };
+		F09F667517FAD77300CBEADE /* FBDynamicFrameworkLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDynamicFrameworkLoader.h; sourceTree = "<group>"; };
+		F09F667617FAD77300CBEADE /* FBDialogsParams+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBDialogsParams+Internal.h"; sourceTree = "<group>"; };
+		F09F667717FAD77300CBEADE /* FBDialogsParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBDialogsParams.m; sourceTree = "<group>"; };
+		F09F667817FAD77300CBEADE /* FBDialogsParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDialogsParams.h; sourceTree = "<group>"; };
+		F09F667917FAD77300CBEADE /* FBDialogsData+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBDialogsData+Internal.h"; sourceTree = "<group>"; };
+		F09F667A17FAD77300CBEADE /* FBDialogsData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBDialogsData.m; sourceTree = "<group>"; };
+		F09F667B17FAD77300CBEADE /* FBDialogsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDialogsData.h; sourceTree = "<group>"; };
+		F09F667C17FAD77300CBEADE /* FBDialogs+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBDialogs+Internal.h"; sourceTree = "<group>"; };
+		F09F667D17FAD77300CBEADE /* FBDialogs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBDialogs.m; sourceTree = "<group>"; };
+		F09F667E17FAD77300CBEADE /* FBDialogs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDialogs.h; sourceTree = "<group>"; };
+		F09F667F17FAD77300CBEADE /* FBDialogClosePNG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBDialogClosePNG.m; sourceTree = "<group>"; };
+		F09F668017FAD77300CBEADE /* FBDialogClosePNG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDialogClosePNG.h; sourceTree = "<group>"; };
+		F09F668117FAD77300CBEADE /* FBDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBDialog.m; sourceTree = "<group>"; };
+		F09F668217FAD77300CBEADE /* FBDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDialog.h; sourceTree = "<group>"; };
+		F09F668317FAD77300CBEADE /* FBDataDiskCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBDataDiskCache.m; sourceTree = "<group>"; };
+		F09F668417FAD77300CBEADE /* FBDataDiskCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDataDiskCache.h; sourceTree = "<group>"; };
+		F09F668517FAD77300CBEADE /* FBConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBConnect.h; sourceTree = "<group>"; };
+		F09F668617FAD77300CBEADE /* FBCacheIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBCacheIndex.m; sourceTree = "<group>"; };
+		F09F668717FAD77300CBEADE /* FBCacheIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBCacheIndex.h; sourceTree = "<group>"; };
+		F09F668817FAD77300CBEADE /* FBCacheDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBCacheDescriptor.m; sourceTree = "<group>"; };
+		F09F668917FAD77300CBEADE /* FBCacheDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBCacheDescriptor.h; sourceTree = "<group>"; };
+		F09F668A17FAD77300CBEADE /* FBAppLinkData+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBAppLinkData+Internal.h"; sourceTree = "<group>"; };
+		F09F668B17FAD77300CBEADE /* FBAppLinkData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBAppLinkData.m; sourceTree = "<group>"; };
+		F09F668C17FAD77300CBEADE /* FBAppLinkData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBAppLinkData.h; sourceTree = "<group>"; };
+		F09F668D17FAD77300CBEADE /* FBAppEvents+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBAppEvents+Internal.h"; sourceTree = "<group>"; };
+		F09F668E17FAD77300CBEADE /* FBAppEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBAppEvents.m; sourceTree = "<group>"; };
+		F09F668F17FAD77300CBEADE /* FBAppEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBAppEvents.h; sourceTree = "<group>"; };
+		F09F669017FAD77300CBEADE /* FBAppCall+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBAppCall+Internal.h"; sourceTree = "<group>"; };
+		F09F669117FAD77300CBEADE /* FBAppCall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBAppCall.m; sourceTree = "<group>"; };
+		F09F669217FAD77300CBEADE /* FBAppCall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBAppCall.h; sourceTree = "<group>"; };
+		F09F669317FAD77300CBEADE /* FBAppBridgeTypeToJSONConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBAppBridgeTypeToJSONConverter.m; sourceTree = "<group>"; };
+		F09F669417FAD77300CBEADE /* FBAppBridgeTypeToJSONConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBAppBridgeTypeToJSONConverter.h; sourceTree = "<group>"; };
+		F09F669517FAD77300CBEADE /* FBAppBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBAppBridge.m; sourceTree = "<group>"; };
+		F09F669617FAD77300CBEADE /* FBAppBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBAppBridge.h; sourceTree = "<group>"; };
+		F09F669717FAD77300CBEADE /* FBAccessTokenData+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBAccessTokenData+Internal.h"; sourceTree = "<group>"; };
+		F09F669817FAD77300CBEADE /* FBAccessTokenData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBAccessTokenData.m; sourceTree = "<group>"; };
+		F09F669917FAD77300CBEADE /* FBAccessTokenData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBAccessTokenData.h; sourceTree = "<group>"; };
+		F09F669A17FAD77300CBEADE /* FacebookSDKResources.bundle.README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FacebookSDKResources.bundle.README; sourceTree = "<group>"; };
+		F09F66B417FAD77300CBEADE /* FacebookSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookSDK.h; sourceTree = "<group>"; };
+		F09F66B517FAD77300CBEADE /* Facebook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Facebook.m; sourceTree = "<group>"; };
+		F09F66B617FAD77300CBEADE /* Facebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facebook.h; sourceTree = "<group>"; };
+		F09F66B717FAD77300CBEADE /* facebook-ios-sdk.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "facebook-ios-sdk.xcodeproj"; sourceTree = "<group>"; };
+		F09F66BC17FAD77400CBEADE /* facebook_ios_sdk_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = facebook_ios_sdk_Prefix.pch; sourceTree = "<group>"; };
+		F09F66BE17FAD77400CBEADE /* FBCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBCrypto.h; sourceTree = "<group>"; };
+		F09F66BF17FAD77400CBEADE /* FBCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBCrypto.m; sourceTree = "<group>"; };
+		F09F66C117FAD77400CBEADE /* FBBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBBase64.h; sourceTree = "<group>"; };
+		F09F66C217FAD77400CBEADE /* FBBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBBase64.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -264,10 +496,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D15605E16B3615100D43852 /* Social.framework in Frameworks */,
+				1D15605D16B3615100D43852 /* Accounts.framework in Frameworks */,
+				F01DE44117FAB39D00AE306A /* libsqlite3.dylib in Frameworks */,
+				F01DE44317FAB3A700AE306A /* Security.framework in Frameworks */,
 				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
 				1D15605C16B3615100D43852 /* AdSupport.framework in Frameworks */,
-				1D15605D16B3615100D43852 /* Accounts.framework in Frameworks */,
-				1D15605E16B3615100D43852 /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +530,9 @@
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F01DE44217FAB3A700AE306A /* Security.framework */,
+				F01DE44017FAB39D00AE306A /* libsqlite3.dylib */,
+				F04DFB2617F9B6E400F2BE4F /* QuartzCore.framework */,
 				1D15605916B3615100D43852 /* AdSupport.framework */,
 				1D15605A16B3615100D43852 /* Accounts.framework */,
 				1D15605B16B3615100D43852 /* Social.framework */,
@@ -312,14 +549,10 @@
 				24DE9E1011C5FE74003F90F6 /* FacebookModuleAssets.m */,
 				24DD6CF71134B3F500162E58 /* FacebookModule.h */,
 				24DD6CF81134B3F500162E58 /* FacebookModule.m */,
-				1D15604616B34AA200D43852 /* TiFacebookDialogRequest.h */,
-				1D15604716B34AA200D43852 /* TiFacebookDialogRequest.m */,
 				1D15604816B34AA200D43852 /* TiFacebookLoginButton.h */,
 				1D15604916B34AA200D43852 /* TiFacebookLoginButton.m */,
 				1D15604A16B34AA200D43852 /* TiFacebookLoginButtonProxy.h */,
 				1D15604B16B34AA200D43852 /* TiFacebookLoginButtonProxy.m */,
-				1D15605216B34AC800D43852 /* TiFacebookRequest.h */,
-				1D15605316B34AC800D43852 /* TiFacebookRequest.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -327,110 +560,205 @@
 		1D155F8A16B34A5100D43852 /* FBConnect */ = {
 			isa = PBXGroup;
 			children = (
-				1D155F8B16B34A5100D43852 /* Facebook.h */,
-				1D155F8C16B34A5100D43852 /* Facebook.m */,
-				1D155F8D16B34A5100D43852 /* FacebookSDK.h */,
-				1D155F8E16B34A5100D43852 /* FBCacheDescriptor.h */,
-				1D155F8F16B34A5100D43852 /* FBCacheDescriptor.m */,
-				1D155F9016B34A5100D43852 /* FBCacheIndex.h */,
-				1D155F9116B34A5100D43852 /* FBCacheIndex.m */,
-				1D155F9216B34A5100D43852 /* FBConnect.h */,
-				1D155F9316B34A5100D43852 /* FBContentLink.h */,
-				1D155F9416B34A5100D43852 /* FBContentLink.m */,
-				1D155F9516B34A5100D43852 /* FBDataDiskCache.h */,
-				1D155F9616B34A5100D43852 /* FBDataDiskCache.m */,
-				1D155F9716B34A5100D43852 /* FBDialog.h */,
-				1D155F9816B34A5100D43852 /* FBDialog.m */,
-				1D155F9916B34A5100D43852 /* FBError.h */,
-				1D155F9A16B34A5100D43852 /* FBError.m */,
-				1D155F9B16B34A5100D43852 /* FBFrictionlessRequestSettings.h */,
-				1D155F9C16B34A5100D43852 /* FBFrictionlessRequestSettings.m */,
-				1D155F9D16B34A5100D43852 /* FBFriendPickerCacheDescriptor.h */,
-				1D155F9E16B34A5100D43852 /* FBFriendPickerCacheDescriptor.m */,
-				1D155F9F16B34A5100D43852 /* FBFriendPickerViewController+Internal.h */,
-				1D155FA016B34A5100D43852 /* FBFriendPickerViewController.h */,
-				1D155FA116B34A5100D43852 /* FBFriendPickerViewController.m */,
-				1D155FA216B34A5100D43852 /* FBGraphLocation.h */,
-				1D155FA316B34A5100D43852 /* FBGraphObject.h */,
-				1D155FA416B34A5100D43852 /* FBGraphObject.m */,
-				1D155FA516B34A5100D43852 /* FBGraphObjectPagingLoader.h */,
-				1D155FA616B34A5100D43852 /* FBGraphObjectPagingLoader.m */,
-				1D155FA716B34A5100D43852 /* FBGraphObjectTableCell.h */,
-				1D155FA816B34A5100D43852 /* FBGraphObjectTableCell.m */,
-				1D155FA916B34A5100D43852 /* FBGraphObjectTableDataSource.h */,
-				1D155FAA16B34A5100D43852 /* FBGraphObjectTableDataSource.m */,
-				1D155FAB16B34A5100D43852 /* FBGraphObjectTableSelection.h */,
-				1D155FAC16B34A5100D43852 /* FBGraphObjectTableSelection.m */,
-				1D155FAD16B34A5100D43852 /* FBGraphPlace.h */,
-				1D155FAE16B34A5100D43852 /* FBGraphUser.h */,
-				1D155FAF16B34A5100D43852 /* FBLogger.h */,
-				1D155FB016B34A5100D43852 /* FBLogger.m */,
-				1D155FB116B34A5100D43852 /* FBLoginButton.h */,
-				1D155FB216B34A5100D43852 /* FBLoginButton.m */,
-				1D155FB316B34A5100D43852 /* FBLoginDialog.h */,
-				1D155FB416B34A5100D43852 /* FBLoginDialog.m */,
-				1D155FB516B34A5100D43852 /* FBLoginView.h */,
-				1D155FB616B34A5100D43852 /* FBLoginView.m */,
-				1D155FB716B34A5100D43852 /* FBNativeDialogs.h */,
-				1D155FB816B34A5100D43852 /* FBNativeDialogs.m */,
-				1D155FB916B34A5100D43852 /* FBOpenGraphAction.h */,
-				1D155FBA16B34A5100D43852 /* FBPlacePickerCacheDescriptor.h */,
-				1D155FBB16B34A5100D43852 /* FBPlacePickerCacheDescriptor.m */,
-				1D155FBC16B34A5100D43852 /* FBPlacePickerViewController+Internal.h */,
-				1D155FBD16B34A5100D43852 /* FBPlacePickerViewController.h */,
-				1D155FBE16B34A5100D43852 /* FBPlacePickerViewController.m */,
-				1D155FBF16B34A5100D43852 /* FBProfilePictureView.h */,
-				1D155FC016B34A5100D43852 /* FBProfilePictureView.m */,
-				1D155FC116B34A5100D43852 /* FBRequest.h */,
-				1D155FC216B34A5100D43852 /* FBRequest.m */,
-				1D155FC316B34A5100D43852 /* FBRequestBody.h */,
-				1D155FC416B34A5100D43852 /* FBRequestBody.m */,
-				1D155FC516B34A5100D43852 /* FBRequestConnection+Internal.h */,
-				1D155FC616B34A5100D43852 /* FBRequestConnection.h */,
-				1D155FC716B34A5100D43852 /* FBRequestConnection.m */,
-				1D155FC816B34A5100D43852 /* FBSDKVersion.h */,
-				1D155FC916B34A5100D43852 /* FBSession+Internal.h */,
-				1D155FCA16B34A5100D43852 /* FBSession+Protected.h */,
-				1D155FCB16B34A5100D43852 /* FBSession.h */,
-				1D155FCC16B34A5100D43852 /* FBSession.m */,
-				1D155FCD16B34A5100D43852 /* FBSessionManualTokenCachingStrategy.h */,
-				1D155FCE16B34A5100D43852 /* FBSessionManualTokenCachingStrategy.m */,
-				1D155FCF16B34A5100D43852 /* FBSessionTokenCachingStrategy.h */,
-				1D155FD016B34A5100D43852 /* FBSessionTokenCachingStrategy.m */,
-				1D155FD116B34A5100D43852 /* FBSettings+Internal.h */,
-				1D155FD216B34A5100D43852 /* FBSettings.h */,
-				1D155FD316B34A5100D43852 /* FBSettings.m */,
-				1D155FD416B34A5100D43852 /* FBTestSession+Internal.h */,
-				1D155FD516B34A5100D43852 /* FBTestSession.h */,
-				1D155FD616B34A5100D43852 /* FBTestSession.m */,
-				1D155FD716B34A5100D43852 /* FBURLConnection.h */,
-				1D155FD816B34A5100D43852 /* FBURLConnection.m */,
-				1D155FD916B34A5100D43852 /* FBUserSettingsViewController.h */,
-				1D155FDA16B34A5100D43852 /* FBUserSettingsViewController.m */,
-				1D155FDB16B34A5100D43852 /* FBUtility.h */,
-				1D155FDC16B34A5100D43852 /* FBUtility.m */,
-				1D155FDD16B34A5100D43852 /* FBViewController+Internal.h */,
-				1D155FDE16B34A5100D43852 /* FBViewController.h */,
-				1D155FDF16B34A5100D43852 /* FBViewController.m */,
-				1D155FE016B34A5100D43852 /* JSON */,
+				F09F65C917FAD77300CBEADE /* Package */,
+				F09F65CE17FAD77300CBEADE /* NSError+FBError.m */,
+				F09F65CF17FAD77300CBEADE /* NSError+FBError.h */,
+				F09F65D017FAD77300CBEADE /* libfacebook_ios_sdk.a */,
+				F09F65D117FAD77300CBEADE /* ImageResources */,
+				F09F65E117FAD77300CBEADE /* Framework */,
+				F09F65E417FAD77300CBEADE /* FBWebDialogs.m */,
+				F09F65E517FAD77300CBEADE /* FBWebDialogs.h */,
+				F09F65E617FAD77300CBEADE /* FBViewController+Internal.h */,
+				F09F65E717FAD77300CBEADE /* FBViewController.m */,
+				F09F65E817FAD77300CBEADE /* FBViewController.h */,
+				F09F65E917FAD77300CBEADE /* FBUtility.m */,
+				F09F65EA17FAD77300CBEADE /* FBUtility.h */,
+				F09F65EB17FAD77300CBEADE /* FBUserSettingsViewResources.bundle */,
+				F09F65EC17FAD77300CBEADE /* FBUserSettingsViewController.m */,
+				F09F65ED17FAD77300CBEADE /* FBUserSettingsViewController.h */,
+				F09F65EE17FAD77300CBEADE /* FBURLConnection.m */,
+				F09F65EF17FAD77300CBEADE /* FBURLConnection.h */,
+				F09F65F017FAD77300CBEADE /* FBTestSession+Internal.h */,
+				F09F65F117FAD77300CBEADE /* FBTestSession.m */,
+				F09F65F217FAD77300CBEADE /* FBTestSession.h */,
+				F09F65F317FAD77300CBEADE /* FBTaskCompletionSource.m */,
+				F09F65F417FAD77300CBEADE /* FBTaskCompletionSource.h */,
+				F09F65F517FAD77300CBEADE /* FBTask+Private.h */,
+				F09F65F617FAD77300CBEADE /* FBTask.m */,
+				F09F65F717FAD77300CBEADE /* FBTask.h */,
+				F09F65F817FAD77300CBEADE /* FBSystemAccountStoreAdapter.m */,
+				F09F65F917FAD77300CBEADE /* FBSystemAccountStoreAdapter.h */,
+				F09F65FA17FAD77300CBEADE /* FBShareDialogParams.m */,
+				F09F65FB17FAD77300CBEADE /* FBShareDialogParams.h */,
+				F09F65FC17FAD77300CBEADE /* FBSettings+Internal.h */,
+				F09F65FD17FAD77300CBEADE /* FBSettings.m */,
+				F09F65FE17FAD77300CBEADE /* FBSettings.h */,
+				F09F65FF17FAD77300CBEADE /* FBSessionUtility.m */,
+				F09F660017FAD77300CBEADE /* FBSessionUtility.h */,
+				F09F660117FAD77300CBEADE /* FBSessionTokenCachingStrategy.m */,
+				F09F660217FAD77300CBEADE /* FBSessionTokenCachingStrategy.h */,
+				F09F660317FAD77300CBEADE /* FBSessionSystemLoginStategy.m */,
+				F09F660417FAD77300CBEADE /* FBSessionSystemLoginStategy.h */,
+				F09F660517FAD77300CBEADE /* FBSessionSafariLoginStategy.m */,
+				F09F660617FAD77300CBEADE /* FBSessionSafariLoginStategy.h */,
+				F09F660717FAD77300CBEADE /* FBSessionManualTokenCachingStrategy.m */,
+				F09F660817FAD77300CBEADE /* FBSessionManualTokenCachingStrategy.h */,
+				F09F660917FAD77300CBEADE /* FBSessionLoginStrategyParams.m */,
+				F09F660A17FAD77300CBEADE /* FBSessionLoginStrategyParams.h */,
+				F09F660B17FAD77300CBEADE /* FBSessionLoginStrategy.h */,
+				F09F660C17FAD77300CBEADE /* FBSessionInsightsState.m */,
+				F09F660D17FAD77300CBEADE /* FBSessionInsightsState.h */,
+				F09F660E17FAD77300CBEADE /* FBSessionInlineWebViewLoginStategy.m */,
+				F09F660F17FAD77300CBEADE /* FBSessionInlineWebViewLoginStategy.h */,
+				F09F661017FAD77300CBEADE /* FBSessionFacebookAppWebLoginStategy.m */,
+				F09F661117FAD77300CBEADE /* FBSessionFacebookAppWebLoginStategy.h */,
+				F09F661217FAD77300CBEADE /* FBSessionFacebookAppNativeLoginStategy.m */,
+				F09F661317FAD77300CBEADE /* FBSessionFacebookAppNativeLoginStategy.h */,
+				F09F661417FAD77300CBEADE /* FBSessionAuthLogger.m */,
+				F09F661517FAD77300CBEADE /* FBSessionAuthLogger.h */,
+				F09F661617FAD77300CBEADE /* FBSessionAppSwitchingLoginStategy.m */,
+				F09F661717FAD77300CBEADE /* FBSessionAppSwitchingLoginStategy.h */,
+				F09F661817FAD77300CBEADE /* FBSessionAppEventsState.m */,
+				F09F661917FAD77300CBEADE /* FBSessionAppEventsState.h */,
+				F09F661A17FAD77300CBEADE /* FBSession+Protected.h */,
+				F09F661B17FAD77300CBEADE /* FBSession+Internal.h */,
+				F09F661C17FAD77300CBEADE /* FBSession+FBSessionLoginStrategy.h */,
+				F09F661D17FAD77300CBEADE /* FBSession.m */,
+				F09F661E17FAD77300CBEADE /* FBSession.h */,
+				F09F661F17FAD77300CBEADE /* FBSDKVersion.h */,
+				F09F662017FAD77300CBEADE /* FBRequestMetadata.m */,
+				F09F662117FAD77300CBEADE /* FBRequestMetadata.h */,
+				F09F662217FAD77300CBEADE /* FBRequestHandlerFactory.m */,
+				F09F662317FAD77300CBEADE /* FBRequestHandlerFactory.h */,
+				F09F662417FAD77300CBEADE /* FBRequestConnectionRetryManager.m */,
+				F09F662517FAD77300CBEADE /* FBRequestConnectionRetryManager.h */,
+				F09F662617FAD77300CBEADE /* FBRequestConnection+Internal.h */,
+				F09F662717FAD77300CBEADE /* FBRequestConnection.m */,
+				F09F662817FAD77300CBEADE /* FBRequestConnection.h */,
+				F09F662917FAD77300CBEADE /* FBRequestBody.m */,
+				F09F662A17FAD77300CBEADE /* FBRequestBody.h */,
+				F09F662B17FAD77300CBEADE /* FBRequest+Internal.h */,
+				F09F662C17FAD77300CBEADE /* FBRequest.m */,
+				F09F662D17FAD77300CBEADE /* FBRequest.h */,
+				F09F662E17FAD77300CBEADE /* FBProfilePictureViewBlankProfileSquarePNG.m */,
+				F09F662F17FAD77300CBEADE /* FBProfilePictureViewBlankProfileSquarePNG.h */,
+				F09F663017FAD77300CBEADE /* FBProfilePictureViewBlankProfilePortraitPNG.m */,
+				F09F663117FAD77300CBEADE /* FBProfilePictureViewBlankProfilePortraitPNG.h */,
+				F09F663217FAD77300CBEADE /* FBProfilePictureView.m */,
+				F09F663317FAD77300CBEADE /* FBProfilePictureView.h */,
+				F09F663417FAD77300CBEADE /* FBPlacePickerViewGenericPlacePNG.m */,
+				F09F663517FAD77300CBEADE /* FBPlacePickerViewGenericPlacePNG.h */,
+				F09F663617FAD77300CBEADE /* FBPlacePickerViewController+Internal.h */,
+				F09F663717FAD77300CBEADE /* FBPlacePickerViewController.m */,
+				F09F663817FAD77300CBEADE /* FBPlacePickerViewController.h */,
+				F09F663917FAD77300CBEADE /* FBPlacePickerCacheDescriptor.m */,
+				F09F663A17FAD77300CBEADE /* FBPlacePickerCacheDescriptor.h */,
+				F09F663B17FAD77300CBEADE /* FBOpenGraphObject.h */,
+				F09F663C17FAD77300CBEADE /* FBOpenGraphActionShareDialogParams.m */,
+				F09F663D17FAD77300CBEADE /* FBOpenGraphActionShareDialogParams.h */,
+				F09F663E17FAD77300CBEADE /* FBOpenGraphAction.h */,
+				F09F663F17FAD77300CBEADE /* FBNativeDialogs.m */,
+				F09F664017FAD77300CBEADE /* FBNativeDialogs.h */,
+				F09F664117FAD77300CBEADE /* FBLoginViewButtonPressedPNG.m */,
+				F09F664217FAD77300CBEADE /* FBLoginViewButtonPressedPNG.h */,
+				F09F664317FAD77300CBEADE /* FBLoginViewButtonPNG.m */,
+				F09F664417FAD77300CBEADE /* FBLoginViewButtonPNG.h */,
+				F09F664517FAD77300CBEADE /* FBLoginView.m */,
+				F09F664617FAD77300CBEADE /* FBLoginView.h */,
+				F09F664717FAD77300CBEADE /* FBLoginDialogParams.m */,
+				F09F664817FAD77300CBEADE /* FBLoginDialogParams.h */,
+				F09F664917FAD77300CBEADE /* FBLoginDialog.m */,
+				F09F664A17FAD77300CBEADE /* FBLoginDialog.h */,
+				F09F664B17FAD77300CBEADE /* FBLoginButton.m */,
+				F09F664C17FAD77300CBEADE /* FBLoginButton.h */,
+				F09F664D17FAD77300CBEADE /* FBLogger.m */,
+				F09F664E17FAD77300CBEADE /* FBLogger.h */,
+				F09F664F17FAD77300CBEADE /* FBInsights+Internal.h */,
+				F09F665017FAD77300CBEADE /* FBInsights.m */,
+				F09F665117FAD77300CBEADE /* FBInsights.h */,
+				F09F665217FAD77300CBEADE /* FBImageResourceLoader.m */,
+				F09F665317FAD77300CBEADE /* FBImageResourceLoader.h */,
+				F09F665417FAD77300CBEADE /* FBGraphUser.h */,
+				F09F665517FAD77300CBEADE /* FBGraphPlace.h */,
+				F09F665617FAD77300CBEADE /* FBGraphObjectTableSelection.m */,
+				F09F665717FAD77300CBEADE /* FBGraphObjectTableSelection.h */,
+				F09F665817FAD77300CBEADE /* FBGraphObjectTableDataSource.m */,
+				F09F665917FAD77300CBEADE /* FBGraphObjectTableDataSource.h */,
+				F09F665A17FAD77300CBEADE /* FBGraphObjectTableCell.m */,
+				F09F665B17FAD77300CBEADE /* FBGraphObjectTableCell.h */,
+				F09F665C17FAD77300CBEADE /* FBGraphObjectPagingLoader.m */,
+				F09F665D17FAD77300CBEADE /* FBGraphObjectPagingLoader.h */,
+				F09F665E17FAD77300CBEADE /* FBGraphObject.m */,
+				F09F665F17FAD77300CBEADE /* FBGraphObject.h */,
+				F09F666017FAD77300CBEADE /* FBGraphLocation.h */,
+				F09F666117FAD77300CBEADE /* FBFriendPickerViewDefaultPNG.m */,
+				F09F666217FAD77300CBEADE /* FBFriendPickerViewDefaultPNG.h */,
+				F09F666317FAD77300CBEADE /* FBFriendPickerViewController+Internal.h */,
+				F09F666417FAD77300CBEADE /* FBFriendPickerViewController.m */,
+				F09F666517FAD77300CBEADE /* FBFriendPickerViewController.h */,
+				F09F666617FAD77300CBEADE /* FBFriendPickerCacheDescriptor.m */,
+				F09F666717FAD77300CBEADE /* FBFriendPickerCacheDescriptor.h */,
+				F09F666817FAD77300CBEADE /* FBFrictionlessRequestSettings.m */,
+				F09F666917FAD77300CBEADE /* FBFrictionlessRequestSettings.h */,
+				F09F666A17FAD77300CBEADE /* FBFrictionlessRecipientCache.m */,
+				F09F666B17FAD77300CBEADE /* FBFrictionlessRecipientCache.h */,
+				F09F666C17FAD77300CBEADE /* FBFrictionlessDialogSupportDelegate.h */,
+				F09F666D17FAD77300CBEADE /* FBFetchedAppSettings.m */,
+				F09F666E17FAD77300CBEADE /* FBFetchedAppSettings.h */,
+				F09F666F17FAD77300CBEADE /* FBErrorUtility+Internal.h */,
+				F09F667017FAD77300CBEADE /* FBErrorUtility.m */,
+				F09F667117FAD77300CBEADE /* FBErrorUtility.h */,
+				F09F667217FAD77300CBEADE /* FBError.m */,
+				F09F667317FAD77300CBEADE /* FBError.h */,
+				F09F667417FAD77300CBEADE /* FBDynamicFrameworkLoader.m */,
+				F09F667517FAD77300CBEADE /* FBDynamicFrameworkLoader.h */,
+				F09F667617FAD77300CBEADE /* FBDialogsParams+Internal.h */,
+				F09F667717FAD77300CBEADE /* FBDialogsParams.m */,
+				F09F667817FAD77300CBEADE /* FBDialogsParams.h */,
+				F09F667917FAD77300CBEADE /* FBDialogsData+Internal.h */,
+				F09F667A17FAD77300CBEADE /* FBDialogsData.m */,
+				F09F667B17FAD77300CBEADE /* FBDialogsData.h */,
+				F09F667C17FAD77300CBEADE /* FBDialogs+Internal.h */,
+				F09F667D17FAD77300CBEADE /* FBDialogs.m */,
+				F09F667E17FAD77300CBEADE /* FBDialogs.h */,
+				F09F667F17FAD77300CBEADE /* FBDialogClosePNG.m */,
+				F09F668017FAD77300CBEADE /* FBDialogClosePNG.h */,
+				F09F668117FAD77300CBEADE /* FBDialog.m */,
+				F09F668217FAD77300CBEADE /* FBDialog.h */,
+				F09F668317FAD77300CBEADE /* FBDataDiskCache.m */,
+				F09F668417FAD77300CBEADE /* FBDataDiskCache.h */,
+				F09F668517FAD77300CBEADE /* FBConnect.h */,
+				F09F668617FAD77300CBEADE /* FBCacheIndex.m */,
+				F09F668717FAD77300CBEADE /* FBCacheIndex.h */,
+				F09F668817FAD77300CBEADE /* FBCacheDescriptor.m */,
+				F09F668917FAD77300CBEADE /* FBCacheDescriptor.h */,
+				F09F668A17FAD77300CBEADE /* FBAppLinkData+Internal.h */,
+				F09F668B17FAD77300CBEADE /* FBAppLinkData.m */,
+				F09F668C17FAD77300CBEADE /* FBAppLinkData.h */,
+				F09F668D17FAD77300CBEADE /* FBAppEvents+Internal.h */,
+				F09F668E17FAD77300CBEADE /* FBAppEvents.m */,
+				F09F668F17FAD77300CBEADE /* FBAppEvents.h */,
+				F09F669017FAD77300CBEADE /* FBAppCall+Internal.h */,
+				F09F669117FAD77300CBEADE /* FBAppCall.m */,
+				F09F669217FAD77300CBEADE /* FBAppCall.h */,
+				F09F669317FAD77300CBEADE /* FBAppBridgeTypeToJSONConverter.m */,
+				F09F669417FAD77300CBEADE /* FBAppBridgeTypeToJSONConverter.h */,
+				F09F669517FAD77300CBEADE /* FBAppBridge.m */,
+				F09F669617FAD77300CBEADE /* FBAppBridge.h */,
+				F09F669717FAD77300CBEADE /* FBAccessTokenData+Internal.h */,
+				F09F669817FAD77300CBEADE /* FBAccessTokenData.m */,
+				F09F669917FAD77300CBEADE /* FBAccessTokenData.h */,
+				F09F669A17FAD77300CBEADE /* FacebookSDKResources.bundle.README */,
+				F09F66B417FAD77300CBEADE /* FacebookSDK.h */,
+				F09F66B517FAD77300CBEADE /* Facebook.m */,
+				F09F66B617FAD77300CBEADE /* Facebook.h */,
+				F09F66B717FAD77300CBEADE /* facebook-ios-sdk.xcodeproj */,
+				F09F66BC17FAD77400CBEADE /* facebook_ios_sdk_Prefix.pch */,
+				F09F66BD17FAD77400CBEADE /* Cryptography */,
+				F09F66C017FAD77400CBEADE /* Base64 */,
 			);
 			name = FBConnect;
 			path = Classes/FBConnect;
-			sourceTree = "<group>";
-		};
-		1D155FE016B34A5100D43852 /* JSON */ = {
-			isa = PBXGroup;
-			children = (
-				1D155FE116B34A5100D43852 /* FBSBJSON.h */,
-				1D155FE216B34A5100D43852 /* FBSBJSON.m */,
-				1D155FE316B34A5100D43852 /* FBSBJsonBase.h */,
-				1D155FE416B34A5100D43852 /* FBSBJsonBase.m */,
-				1D155FE516B34A5100D43852 /* FBSBJsonParser.h */,
-				1D155FE616B34A5100D43852 /* FBSBJsonParser.m */,
-				1D155FE716B34A5100D43852 /* FBSBJsonWriter.h */,
-				1D155FE816B34A5100D43852 /* FBSBJsonWriter.m */,
-			);
-			path = JSON;
 			sourceTree = "<group>";
 		};
 		32C88DFF0371C24200C91783 /* Other Sources */ = {
@@ -442,6 +770,125 @@
 			name = "Other Sources";
 			sourceTree = "<group>";
 		};
+		F09F65C917FAD77300CBEADE /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				F09F65CA17FAD77300CBEADE /* FacebookSDK.pmdoc */,
+			);
+			path = Package;
+			sourceTree = "<group>";
+		};
+		F09F65CA17FAD77300CBEADE /* FacebookSDK.pmdoc */ = {
+			isa = PBXGroup;
+			children = (
+				F09F65CB17FAD77300CBEADE /* 01package-contents.xml */,
+				F09F65CC17FAD77300CBEADE /* 01package.xml */,
+				F09F65CD17FAD77300CBEADE /* index.xml */,
+			);
+			path = FacebookSDK.pmdoc;
+			sourceTree = "<group>";
+		};
+		F09F65D117FAD77300CBEADE /* ImageResources */ = {
+			isa = PBXGroup;
+			children = (
+				F09F65D217FAD77300CBEADE /* FBDialog */,
+				F09F65D517FAD77300CBEADE /* FBFriendPickerView */,
+				F09F65D717FAD77300CBEADE /* FBLoginView */,
+				F09F65DC17FAD77300CBEADE /* FBPlacePickerView */,
+				F09F65DE17FAD77300CBEADE /* FBProfilePictureView */,
+			);
+			path = ImageResources;
+			sourceTree = "<group>";
+		};
+		F09F65D217FAD77300CBEADE /* FBDialog */ = {
+			isa = PBXGroup;
+			children = (
+				F09F65D317FAD77300CBEADE /* FBDialogClose.png */,
+				F09F65D417FAD77300CBEADE /* FBDialogClose@2x.png */,
+			);
+			path = FBDialog;
+			sourceTree = "<group>";
+		};
+		F09F65D517FAD77300CBEADE /* FBFriendPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				F09F65D617FAD77300CBEADE /* FBFriendPickerViewDefault.png */,
+			);
+			path = FBFriendPickerView;
+			sourceTree = "<group>";
+		};
+		F09F65D717FAD77300CBEADE /* FBLoginView */ = {
+			isa = PBXGroup;
+			children = (
+				F09F65D817FAD77300CBEADE /* FBLoginViewButton.png */,
+				F09F65D917FAD77300CBEADE /* FBLoginViewButton@2x.png */,
+				F09F65DA17FAD77300CBEADE /* FBLoginViewButtonPressed.png */,
+				F09F65DB17FAD77300CBEADE /* FBLoginViewButtonPressed@2x.png */,
+			);
+			path = FBLoginView;
+			sourceTree = "<group>";
+		};
+		F09F65DC17FAD77300CBEADE /* FBPlacePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				F09F65DD17FAD77300CBEADE /* FBPlacePickerViewGenericPlace.png */,
+			);
+			path = FBPlacePickerView;
+			sourceTree = "<group>";
+		};
+		F09F65DE17FAD77300CBEADE /* FBProfilePictureView */ = {
+			isa = PBXGroup;
+			children = (
+				F09F65DF17FAD77300CBEADE /* FBProfilePictureViewBlankProfilePortrait.png */,
+				F09F65E017FAD77300CBEADE /* FBProfilePictureViewBlankProfileSquare.png */,
+			);
+			path = FBProfilePictureView;
+			sourceTree = "<group>";
+		};
+		F09F65E117FAD77300CBEADE /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				F09F65E217FAD77300CBEADE /* Resources */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		F09F65E217FAD77300CBEADE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F09F65E317FAD77300CBEADE /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F09F66B817FAD77300CBEADE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F09F67C517FAD77400CBEADE /* libfacebook_ios_sdk.a */,
+				F09F67C717FAD77400CBEADE /* FacebookSDKTests.octest */,
+				F09F67C917FAD77400CBEADE /* FacebookSDKIntegrationTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F09F66BD17FAD77400CBEADE /* Cryptography */ = {
+			isa = PBXGroup;
+			children = (
+				F09F66BE17FAD77400CBEADE /* FBCrypto.h */,
+				F09F66BF17FAD77400CBEADE /* FBCrypto.m */,
+			);
+			path = Cryptography;
+			sourceTree = "<group>";
+		};
+		F09F66C017FAD77400CBEADE /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				F09F66C117FAD77400CBEADE /* FBBase64.h */,
+				F09F66C217FAD77400CBEADE /* FBBase64.m */,
+			);
+			path = Base64;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -449,67 +896,122 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F09F679A17FAD77400CBEADE /* FBAppCall+Internal.h in Headers */,
+				F09F67A017FAD77400CBEADE /* FBAppBridge.h in Headers */,
+				F09F670617FAD77400CBEADE /* FBSettings+Internal.h in Headers */,
+				F09F679C17FAD77400CBEADE /* FBAppCall.h in Headers */,
+				F09F67BD17FAD77400CBEADE /* FBCrypto.h in Headers */,
+				F09F674817FAD77400CBEADE /* FBOpenGraphAction.h in Headers */,
+				F09F676917FAD77400CBEADE /* FBGraphObject.h in Headers */,
+				F09F675F17FAD77400CBEADE /* FBGraphPlace.h in Headers */,
+				F09F676517FAD77400CBEADE /* FBGraphObjectTableCell.h in Headers */,
+				F09F672517FAD77400CBEADE /* FBSession+Internal.h in Headers */,
+				F09F67A117FAD77400CBEADE /* FBAccessTokenData+Internal.h in Headers */,
+				F09F676F17FAD77400CBEADE /* FBFriendPickerViewController.h in Headers */,
+				F09F673517FAD77400CBEADE /* FBRequest+Internal.h in Headers */,
+				F09F672F17FAD77400CBEADE /* FBRequestConnectionRetryManager.h in Headers */,
+				F09F672417FAD77400CBEADE /* FBSession+Protected.h in Headers */,
+				F09F675617FAD77400CBEADE /* FBLoginButton.h in Headers */,
+				F09F672B17FAD77400CBEADE /* FBRequestMetadata.h in Headers */,
+				F09F66F917FAD77400CBEADE /* FBURLConnection.h in Headers */,
+				F09F677817FAD77400CBEADE /* FBFetchedAppSettings.h in Headers */,
+				F09F671417FAD77400CBEADE /* FBSessionLoginStrategyParams.h in Headers */,
+				F09F677517FAD77400CBEADE /* FBFrictionlessRecipientCache.h in Headers */,
+				F09F66FF17FAD77400CBEADE /* FBTask+Private.h in Headers */,
+				F09F672317FAD77400CBEADE /* FBSessionAppEventsState.h in Headers */,
+				F09F672817FAD77400CBEADE /* FBSession.h in Headers */,
+				F09F66F717FAD77400CBEADE /* FBUserSettingsViewController.h in Headers */,
+				F09F678E17FAD77400CBEADE /* FBDataDiskCache.h in Headers */,
+				F09F677B17FAD77400CBEADE /* FBErrorUtility.h in Headers */,
+				F09F673917FAD77400CBEADE /* FBProfilePictureViewBlankProfileSquarePNG.h in Headers */,
+				F09F679E17FAD77400CBEADE /* FBAppBridgeTypeToJSONConverter.h in Headers */,
+				F09F675217FAD77400CBEADE /* FBLoginDialogParams.h in Headers */,
+				F09F67BB17FAD77400CBEADE /* Facebook.h in Headers */,
+				F09F672117FAD77400CBEADE /* FBSessionAppSwitchingLoginStategy.h in Headers */,
+				F09F673217FAD77400CBEADE /* FBRequestConnection.h in Headers */,
+				F09F679717FAD77400CBEADE /* FBAppEvents+Internal.h in Headers */,
+				F09F671917FAD77400CBEADE /* FBSessionInlineWebViewLoginStategy.h in Headers */,
+				F09F673F17FAD77400CBEADE /* FBPlacePickerViewGenericPlacePNG.h in Headers */,
+				F09F670A17FAD77400CBEADE /* FBSessionUtility.h in Headers */,
+				F09F66FE17FAD77400CBEADE /* FBTaskCompletionSource.h in Headers */,
+				F09F673D17FAD77400CBEADE /* FBProfilePictureView.h in Headers */,
+				F09F676717FAD77400CBEADE /* FBGraphObjectPagingLoader.h in Headers */,
+				F09F670817FAD77400CBEADE /* FBSettings.h in Headers */,
+				F09F674517FAD77400CBEADE /* FBOpenGraphObject.h in Headers */,
+				F09F678617FAD77400CBEADE /* FBDialogs+Internal.h in Headers */,
+				F09F670C17FAD77400CBEADE /* FBSessionTokenCachingStrategy.h in Headers */,
+				F09F678017FAD77400CBEADE /* FBDialogsParams+Internal.h in Headers */,
+				F09F679417FAD77400CBEADE /* FBAppLinkData+Internal.h in Headers */,
+				F09F678A17FAD77400CBEADE /* FBDialogClosePNG.h in Headers */,
+				F09F679917FAD77400CBEADE /* FBAppEvents.h in Headers */,
+				F09F671D17FAD77400CBEADE /* FBSessionFacebookAppNativeLoginStategy.h in Headers */,
+				F09F674417FAD77400CBEADE /* FBPlacePickerCacheDescriptor.h in Headers */,
+				F09F675017FAD77400CBEADE /* FBLoginView.h in Headers */,
+				F09F66F017FAD77400CBEADE /* FBWebDialogs.h in Headers */,
+				F09F675D17FAD77400CBEADE /* FBImageResourceLoader.h in Headers */,
+				F09F673417FAD77400CBEADE /* FBRequestBody.h in Headers */,
+				F09F67B917FAD77400CBEADE /* FacebookSDK.h in Headers */,
+				F09F673717FAD77400CBEADE /* FBRequest.h in Headers */,
 				AA747D9F0F9514B9006C5449 /* Facebook_Prefix.pch in Headers */,
+				F09F678C17FAD77400CBEADE /* FBDialog.h in Headers */,
+				F09F67BF17FAD77400CBEADE /* FBBase64.h in Headers */,
+				F09F675817FAD77400CBEADE /* FBLogger.h in Headers */,
+				F09F66ED17FAD77400CBEADE /* NSError+FBError.h in Headers */,
+				F09F670317FAD77400CBEADE /* FBSystemAccountStoreAdapter.h in Headers */,
+				F09F670117FAD77400CBEADE /* FBTask.h in Headers */,
+				F09F674C17FAD77400CBEADE /* FBLoginViewButtonPressedPNG.h in Headers */,
 				24DD6CF91134B3F500162E58 /* FacebookModule.h in Headers */,
+				F09F676D17FAD77400CBEADE /* FBFriendPickerViewController+Internal.h in Headers */,
+				F09F67BC17FAD77400CBEADE /* facebook_ios_sdk_Prefix.pch in Headers */,
+				F09F675417FAD77400CBEADE /* FBLoginDialog.h in Headers */,
+				F09F670517FAD77400CBEADE /* FBShareDialogParams.h in Headers */,
+				F09F672917FAD77400CBEADE /* FBSDKVersion.h in Headers */,
+				F09F671717FAD77400CBEADE /* FBSessionInsightsState.h in Headers */,
+				F09F674A17FAD77400CBEADE /* FBNativeDialogs.h in Headers */,
+				F09F677D17FAD77400CBEADE /* FBError.h in Headers */,
+				F09F671B17FAD77400CBEADE /* FBSessionFacebookAppWebLoginStategy.h in Headers */,
+				F09F66FA17FAD77400CBEADE /* FBTestSession+Internal.h in Headers */,
+				F09F678317FAD77400CBEADE /* FBDialogsData+Internal.h in Headers */,
+				F09F677617FAD77400CBEADE /* FBFrictionlessDialogSupportDelegate.h in Headers */,
+				F09F674217FAD77400CBEADE /* FBPlacePickerViewController.h in Headers */,
+				F09F677F17FAD77400CBEADE /* FBDynamicFrameworkLoader.h in Headers */,
+				F09F678F17FAD77400CBEADE /* FBConnect.h in Headers */,
+				F09F674E17FAD77400CBEADE /* FBLoginViewButtonPNG.h in Headers */,
+				F09F679617FAD77400CBEADE /* FBAppLinkData.h in Headers */,
+				F09F66F517FAD77400CBEADE /* FBUtility.h in Headers */,
+				F09F678217FAD77400CBEADE /* FBDialogsParams.h in Headers */,
 				24DE9E1111C5FE74003F90F6 /* FacebookModuleAssets.h in Headers */,
-				1D155FE916B34A5100D43852 /* Facebook.h in Headers */,
-				1D155FEB16B34A5100D43852 /* FacebookSDK.h in Headers */,
-				1D155FEC16B34A5100D43852 /* FBCacheDescriptor.h in Headers */,
-				1D155FEE16B34A5100D43852 /* FBCacheIndex.h in Headers */,
-				1D155FF016B34A5100D43852 /* FBConnect.h in Headers */,
-				1D155FF116B34A5100D43852 /* FBContentLink.h in Headers */,
-				1D155FF316B34A5100D43852 /* FBDataDiskCache.h in Headers */,
-				1D155FF516B34A5100D43852 /* FBDialog.h in Headers */,
-				1D155FF716B34A5100D43852 /* FBError.h in Headers */,
-				1D155FF916B34A5100D43852 /* FBFrictionlessRequestSettings.h in Headers */,
-				1D155FFB16B34A5100D43852 /* FBFriendPickerCacheDescriptor.h in Headers */,
-				1D155FFD16B34A5100D43852 /* FBFriendPickerViewController+Internal.h in Headers */,
-				1D155FFE16B34A5100D43852 /* FBFriendPickerViewController.h in Headers */,
-				1D15600016B34A5100D43852 /* FBGraphLocation.h in Headers */,
-				1D15600116B34A5100D43852 /* FBGraphObject.h in Headers */,
-				1D15600316B34A5100D43852 /* FBGraphObjectPagingLoader.h in Headers */,
-				1D15600516B34A5100D43852 /* FBGraphObjectTableCell.h in Headers */,
-				1D15600716B34A5100D43852 /* FBGraphObjectTableDataSource.h in Headers */,
-				1D15600916B34A5100D43852 /* FBGraphObjectTableSelection.h in Headers */,
-				1D15600B16B34A5100D43852 /* FBGraphPlace.h in Headers */,
-				1D15600C16B34A5100D43852 /* FBGraphUser.h in Headers */,
-				1D15600D16B34A5100D43852 /* FBLogger.h in Headers */,
-				1D15600F16B34A5100D43852 /* FBLoginButton.h in Headers */,
-				1D15601116B34A5100D43852 /* FBLoginDialog.h in Headers */,
-				1D15601316B34A5100D43852 /* FBLoginView.h in Headers */,
-				1D15601516B34A5100D43852 /* FBNativeDialogs.h in Headers */,
-				1D15601716B34A5100D43852 /* FBOpenGraphAction.h in Headers */,
-				1D15601816B34A5100D43852 /* FBPlacePickerCacheDescriptor.h in Headers */,
-				1D15601A16B34A5100D43852 /* FBPlacePickerViewController+Internal.h in Headers */,
-				1D15601B16B34A5100D43852 /* FBPlacePickerViewController.h in Headers */,
-				1D15601D16B34A5100D43852 /* FBProfilePictureView.h in Headers */,
-				1D15601F16B34A5100D43852 /* FBRequest.h in Headers */,
-				1D15602116B34A5100D43852 /* FBRequestBody.h in Headers */,
-				1D15602316B34A5100D43852 /* FBRequestConnection+Internal.h in Headers */,
-				1D15602416B34A5100D43852 /* FBRequestConnection.h in Headers */,
-				1D15602616B34A5100D43852 /* FBSDKVersion.h in Headers */,
-				1D15602716B34A5100D43852 /* FBSession+Internal.h in Headers */,
-				1D15602816B34A5100D43852 /* FBSession+Protected.h in Headers */,
-				1D15602916B34A5100D43852 /* FBSession.h in Headers */,
-				1D15602B16B34A5100D43852 /* FBSessionManualTokenCachingStrategy.h in Headers */,
-				1D15602D16B34A5100D43852 /* FBSessionTokenCachingStrategy.h in Headers */,
-				1D15602F16B34A5100D43852 /* FBSettings+Internal.h in Headers */,
-				1D15603016B34A5100D43852 /* FBSettings.h in Headers */,
-				1D15603216B34A5100D43852 /* FBTestSession+Internal.h in Headers */,
-				1D15603316B34A5100D43852 /* FBTestSession.h in Headers */,
-				1D15603516B34A5100D43852 /* FBURLConnection.h in Headers */,
-				1D15603716B34A5100D43852 /* FBUserSettingsViewController.h in Headers */,
-				1D15603916B34A5100D43852 /* FBUtility.h in Headers */,
-				1D15603B16B34A5100D43852 /* FBViewController+Internal.h in Headers */,
-				1D15603C16B34A5100D43852 /* FBViewController.h in Headers */,
-				1D15603E16B34A5100D43852 /* FBSBJSON.h in Headers */,
-				1D15604016B34A5100D43852 /* FBSBJsonBase.h in Headers */,
-				1D15604216B34A5100D43852 /* FBSBJsonParser.h in Headers */,
-				1D15604416B34A5100D43852 /* FBSBJsonWriter.h in Headers */,
-				1D15604C16B34AA200D43852 /* TiFacebookDialogRequest.h in Headers */,
+				F09F671017FAD77400CBEADE /* FBSessionSafariLoginStategy.h in Headers */,
+				F09F676117FAD77400CBEADE /* FBGraphObjectTableSelection.h in Headers */,
+				F09F671217FAD77400CBEADE /* FBSessionManualTokenCachingStrategy.h in Headers */,
+				F09F676A17FAD77400CBEADE /* FBGraphLocation.h in Headers */,
+				F09F675B17FAD77400CBEADE /* FBInsights.h in Headers */,
+				F09F675917FAD77400CBEADE /* FBInsights+Internal.h in Headers */,
+				F09F66FC17FAD77400CBEADE /* FBTestSession.h in Headers */,
+				F09F66F117FAD77400CBEADE /* FBViewController+Internal.h in Headers */,
+				F09F671517FAD77400CBEADE /* FBSessionLoginStrategy.h in Headers */,
+				F09F676317FAD77400CBEADE /* FBGraphObjectTableDataSource.h in Headers */,
+				F09F672D17FAD77400CBEADE /* FBRequestHandlerFactory.h in Headers */,
 				1D15604E16B34AA200D43852 /* TiFacebookLoginButton.h in Headers */,
+				F09F66F317FAD77400CBEADE /* FBViewController.h in Headers */,
+				F09F678817FAD77400CBEADE /* FBDialogs.h in Headers */,
 				1D15605016B34AA200D43852 /* TiFacebookLoginButtonProxy.h in Headers */,
-				1D15605416B34AC800D43852 /* TiFacebookRequest.h in Headers */,
+				F09F677917FAD77400CBEADE /* FBErrorUtility+Internal.h in Headers */,
+				F09F676C17FAD77400CBEADE /* FBFriendPickerViewDefaultPNG.h in Headers */,
+				F09F673B17FAD77400CBEADE /* FBProfilePictureViewBlankProfilePortraitPNG.h in Headers */,
+				F09F674717FAD77400CBEADE /* FBOpenGraphActionShareDialogParams.h in Headers */,
+				F09F679317FAD77400CBEADE /* FBCacheDescriptor.h in Headers */,
+				F09F671F17FAD77400CBEADE /* FBSessionAuthLogger.h in Headers */,
+				F09F670E17FAD77400CBEADE /* FBSessionSystemLoginStategy.h in Headers */,
+				F09F67A317FAD77400CBEADE /* FBAccessTokenData.h in Headers */,
+				F09F678517FAD77400CBEADE /* FBDialogsData.h in Headers */,
+				F09F677117FAD77400CBEADE /* FBFriendPickerCacheDescriptor.h in Headers */,
+				F09F674017FAD77400CBEADE /* FBPlacePickerViewController+Internal.h in Headers */,
+				F09F677317FAD77400CBEADE /* FBFrictionlessRequestSettings.h in Headers */,
+				F09F673017FAD77400CBEADE /* FBRequestConnection+Internal.h in Headers */,
+				F09F675E17FAD77400CBEADE /* FBGraphUser.h in Headers */,
+				F09F679117FAD77400CBEADE /* FBCacheIndex.h in Headers */,
+				F09F672617FAD77400CBEADE /* FBSession+FBSessionLoginStrategy.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -550,10 +1052,17 @@
 				Japanese,
 				French,
 				German,
+				en,
 			);
 			mainGroup = 0867D691FE84028FC02AAC07 /* Facebook */;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F09F66B817FAD77300CBEADE /* Products */;
+					ProjectRef = F09F66B717FAD77300CBEADE /* facebook-ios-sdk.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				D2AAC07D0554694100DB518D /* Facebook */,
@@ -561,6 +1070,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F09F67C517FAD77400CBEADE /* libfacebook_ios_sdk.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libfacebook_ios_sdk.a;
+			remoteRef = F09F67C417FAD77400CBEADE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F09F67C717FAD77400CBEADE /* FacebookSDKTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FacebookSDKTests.octest;
+			remoteRef = F09F67C617FAD77400CBEADE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F09F67C917FAD77400CBEADE /* FacebookSDKIntegrationTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FacebookSDKIntegrationTests.octest;
+			remoteRef = F09F67C817FAD77400CBEADE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		24416B8011C4CA220047AFDD /* ShellScript */ = {
@@ -583,51 +1116,90 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24DD6CFA1134B3F500162E58 /* FacebookModule.m in Sources */,
-				24DE9E1211C5FE74003F90F6 /* FacebookModuleAssets.m in Sources */,
-				1D155FEA16B34A5100D43852 /* Facebook.m in Sources */,
-				1D155FED16B34A5100D43852 /* FBCacheDescriptor.m in Sources */,
-				1D155FEF16B34A5100D43852 /* FBCacheIndex.m in Sources */,
-				1D155FF216B34A5100D43852 /* FBContentLink.m in Sources */,
-				1D155FF416B34A5100D43852 /* FBDataDiskCache.m in Sources */,
-				1D155FF616B34A5100D43852 /* FBDialog.m in Sources */,
-				1D155FF816B34A5100D43852 /* FBError.m in Sources */,
-				1D155FFA16B34A5100D43852 /* FBFrictionlessRequestSettings.m in Sources */,
-				1D155FFC16B34A5100D43852 /* FBFriendPickerCacheDescriptor.m in Sources */,
-				1D155FFF16B34A5100D43852 /* FBFriendPickerViewController.m in Sources */,
-				1D15600216B34A5100D43852 /* FBGraphObject.m in Sources */,
-				1D15600416B34A5100D43852 /* FBGraphObjectPagingLoader.m in Sources */,
-				1D15600616B34A5100D43852 /* FBGraphObjectTableCell.m in Sources */,
-				1D15600816B34A5100D43852 /* FBGraphObjectTableDataSource.m in Sources */,
-				1D15600A16B34A5100D43852 /* FBGraphObjectTableSelection.m in Sources */,
-				1D15600E16B34A5100D43852 /* FBLogger.m in Sources */,
-				1D15601016B34A5100D43852 /* FBLoginButton.m in Sources */,
-				1D15601216B34A5100D43852 /* FBLoginDialog.m in Sources */,
-				1D15601416B34A5100D43852 /* FBLoginView.m in Sources */,
-				1D15601616B34A5100D43852 /* FBNativeDialogs.m in Sources */,
-				1D15601916B34A5100D43852 /* FBPlacePickerCacheDescriptor.m in Sources */,
-				1D15601C16B34A5100D43852 /* FBPlacePickerViewController.m in Sources */,
-				1D15601E16B34A5100D43852 /* FBProfilePictureView.m in Sources */,
-				1D15602016B34A5100D43852 /* FBRequest.m in Sources */,
-				1D15602216B34A5100D43852 /* FBRequestBody.m in Sources */,
-				1D15602516B34A5100D43852 /* FBRequestConnection.m in Sources */,
-				1D15602A16B34A5100D43852 /* FBSession.m in Sources */,
-				1D15602C16B34A5100D43852 /* FBSessionManualTokenCachingStrategy.m in Sources */,
-				1D15602E16B34A5100D43852 /* FBSessionTokenCachingStrategy.m in Sources */,
-				1D15603116B34A5100D43852 /* FBSettings.m in Sources */,
-				1D15603416B34A5100D43852 /* FBTestSession.m in Sources */,
-				1D15603616B34A5100D43852 /* FBURLConnection.m in Sources */,
-				1D15603816B34A5100D43852 /* FBUserSettingsViewController.m in Sources */,
-				1D15603A16B34A5100D43852 /* FBUtility.m in Sources */,
-				1D15603D16B34A5100D43852 /* FBViewController.m in Sources */,
-				1D15603F16B34A5100D43852 /* FBSBJSON.m in Sources */,
-				1D15604116B34A5100D43852 /* FBSBJsonBase.m in Sources */,
-				1D15604316B34A5100D43852 /* FBSBJsonParser.m in Sources */,
-				1D15604516B34A5100D43852 /* FBSBJsonWriter.m in Sources */,
-				1D15604D16B34AA200D43852 /* TiFacebookDialogRequest.m in Sources */,
-				1D15604F16B34AA200D43852 /* TiFacebookLoginButton.m in Sources */,
-				1D15605116B34AA200D43852 /* TiFacebookLoginButtonProxy.m in Sources */,
-				1D15605516B34AC800D43852 /* TiFacebookRequest.m in Sources */,
+				F09F672717FAD77400CBEADE /* FBSession.m in Sources */,
+				F09F678417FAD77400CBEADE /* FBDialogsData.m in Sources */,
+				F09F677217FAD77400CBEADE /* FBFrictionlessRequestSettings.m in Sources */,
+				F09F671817FAD77400CBEADE /* FBSessionInlineWebViewLoginStategy.m in Sources */,
+				F09F672217FAD77400CBEADE /* FBSessionAppEventsState.m in Sources */,
+				F09F66F617FAD77400CBEADE /* FBUserSettingsViewController.m in Sources */,
+				F09F66F217FAD77400CBEADE /* FBViewController.m in Sources */,
+				F09F677C17FAD77400CBEADE /* FBError.m in Sources */,
+				F09F675717FAD77400CBEADE /* FBLogger.m in Sources */,
+				F09F670017FAD77400CBEADE /* FBTask.m in Sources */,
+				F09F677017FAD77400CBEADE /* FBFriendPickerCacheDescriptor.m in Sources */,
+				F09F673C17FAD77400CBEADE /* FBProfilePictureView.m in Sources */,
+				F09F66F417FAD77400CBEADE /* FBUtility.m in Sources */,
+				F09F676617FAD77400CBEADE /* FBGraphObjectPagingLoader.m in Sources */,
+				F09F671617FAD77400CBEADE /* FBSessionInsightsState.m in Sources */,
+				F09F679217FAD77400CBEADE /* FBCacheDescriptor.m in Sources */,
+				F09F679817FAD77400CBEADE /* FBAppEvents.m in Sources */,
+				F09F679D17FAD77400CBEADE /* FBAppBridgeTypeToJSONConverter.m in Sources */,
+				F0CB640017FAC4CF00CE72E1 /* FacebookModuleAssets.m in Sources */,
+				F09F670F17FAD77400CBEADE /* FBSessionSafariLoginStategy.m in Sources */,
+				F09F66FB17FAD77400CBEADE /* FBTestSession.m in Sources */,
+				F09F67BE17FAD77400CBEADE /* FBCrypto.m in Sources */,
+				F09F678D17FAD77400CBEADE /* FBDataDiskCache.m in Sources */,
+				F09F678717FAD77400CBEADE /* FBDialogs.m in Sources */,
+				F09F67C017FAD77400CBEADE /* FBBase64.m in Sources */,
+				F09F676417FAD77400CBEADE /* FBGraphObjectTableCell.m in Sources */,
+				F09F676E17FAD77400CBEADE /* FBFriendPickerViewController.m in Sources */,
+				F09F670417FAD77400CBEADE /* FBShareDialogParams.m in Sources */,
+				F09F677717FAD77400CBEADE /* FBFetchedAppSettings.m in Sources */,
+				F09F676B17FAD77400CBEADE /* FBFriendPickerViewDefaultPNG.m in Sources */,
+				F09F677E17FAD77400CBEADE /* FBDynamicFrameworkLoader.m in Sources */,
+				F09F679017FAD77400CBEADE /* FBCacheIndex.m in Sources */,
+				F09F677417FAD77400CBEADE /* FBFrictionlessRecipientCache.m in Sources */,
+				F09F679F17FAD77400CBEADE /* FBAppBridge.m in Sources */,
+				F09F673A17FAD77400CBEADE /* FBProfilePictureViewBlankProfilePortraitPNG.m in Sources */,
+				F09F675117FAD77400CBEADE /* FBLoginDialogParams.m in Sources */,
+				F09F672C17FAD77400CBEADE /* FBRequestHandlerFactory.m in Sources */,
+				F09F674F17FAD77400CBEADE /* FBLoginView.m in Sources */,
+				F09F675317FAD77400CBEADE /* FBLoginDialog.m in Sources */,
+				F09F674D17FAD77400CBEADE /* FBLoginViewButtonPNG.m in Sources */,
+				F09F673617FAD77400CBEADE /* FBRequest.m in Sources */,
+				F0CB640217FAC4CF00CE72E1 /* FacebookModule.m in Sources */,
+				F09F670917FAD77400CBEADE /* FBSessionUtility.m in Sources */,
+				F09F671C17FAD77400CBEADE /* FBSessionFacebookAppNativeLoginStategy.m in Sources */,
+				F09F674917FAD77400CBEADE /* FBNativeDialogs.m in Sources */,
+				F0CB640417FAC4CF00CE72E1 /* TiFacebookLoginButton.m in Sources */,
+				F09F670717FAD77400CBEADE /* FBSettings.m in Sources */,
+				F09F66EF17FAD77400CBEADE /* FBWebDialogs.m in Sources */,
+				F09F670D17FAD77400CBEADE /* FBSessionSystemLoginStategy.m in Sources */,
+				F09F671117FAD77400CBEADE /* FBSessionManualTokenCachingStrategy.m in Sources */,
+				F09F671A17FAD77400CBEADE /* FBSessionFacebookAppWebLoginStategy.m in Sources */,
+				F09F67A217FAD77400CBEADE /* FBAccessTokenData.m in Sources */,
+				F09F679B17FAD77400CBEADE /* FBAppCall.m in Sources */,
+				F09F676817FAD77400CBEADE /* FBGraphObject.m in Sources */,
+				F09F671317FAD77400CBEADE /* FBSessionLoginStrategyParams.m in Sources */,
+				F09F673117FAD77400CBEADE /* FBRequestConnection.m in Sources */,
+				F09F66EC17FAD77400CBEADE /* NSError+FBError.m in Sources */,
+				F09F674617FAD77400CBEADE /* FBOpenGraphActionShareDialogParams.m in Sources */,
+				F0CB640617FAC4CF00CE72E1 /* TiFacebookLoginButtonProxy.m in Sources */,
+				F09F66F817FAD77400CBEADE /* FBURLConnection.m in Sources */,
+				F09F67BA17FAD77400CBEADE /* Facebook.m in Sources */,
+				F09F670217FAD77400CBEADE /* FBSystemAccountStoreAdapter.m in Sources */,
+				F09F674B17FAD77400CBEADE /* FBLoginViewButtonPressedPNG.m in Sources */,
+				F09F66FD17FAD77400CBEADE /* FBTaskCompletionSource.m in Sources */,
+				F09F673317FAD77400CBEADE /* FBRequestBody.m in Sources */,
+				F09F673817FAD77400CBEADE /* FBProfilePictureViewBlankProfileSquarePNG.m in Sources */,
+				F09F672E17FAD77400CBEADE /* FBRequestConnectionRetryManager.m in Sources */,
+				F09F674117FAD77400CBEADE /* FBPlacePickerViewController.m in Sources */,
+				F09F674317FAD77400CBEADE /* FBPlacePickerCacheDescriptor.m in Sources */,
+				F09F672A17FAD77400CBEADE /* FBRequestMetadata.m in Sources */,
+				F09F676217FAD77400CBEADE /* FBGraphObjectTableDataSource.m in Sources */,
+				F09F675A17FAD77400CBEADE /* FBInsights.m in Sources */,
+				F09F675517FAD77400CBEADE /* FBLoginButton.m in Sources */,
+				F09F673E17FAD77400CBEADE /* FBPlacePickerViewGenericPlacePNG.m in Sources */,
+				F09F670B17FAD77400CBEADE /* FBSessionTokenCachingStrategy.m in Sources */,
+				F09F678917FAD77400CBEADE /* FBDialogClosePNG.m in Sources */,
+				F09F676017FAD77400CBEADE /* FBGraphObjectTableSelection.m in Sources */,
+				F09F678B17FAD77400CBEADE /* FBDialog.m in Sources */,
+				F09F672017FAD77400CBEADE /* FBSessionAppSwitchingLoginStategy.m in Sources */,
+				F09F678117FAD77400CBEADE /* FBDialogsParams.m in Sources */,
+				F09F679517FAD77400CBEADE /* FBAppLinkData.m in Sources */,
+				F09F677A17FAD77400CBEADE /* FBErrorUtility.m in Sources */,
+				F09F675C17FAD77400CBEADE /* FBImageResourceLoader.m in Sources */,
+				F09F671E17FAD77400CBEADE /* FBSessionAuthLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -646,6 +1218,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DSTROOT = /tmp/Facebook.dst;
@@ -665,7 +1238,12 @@
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				INSTALL_PATH = /usr/local/lib;
-				LIBRARY_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					/Users/xinhui/Desktop,
+					/Users/xinhui/Dev/titanium_modules/facebook/mobile/ios/Classes/FBConnect,
+				);
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = (
 					"-DDEBUG",
 					"-DTI_POST_1_2",
@@ -675,8 +1253,10 @@
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = "arm64 armv7 armv7s i386";
 			};
 			name = Debug;
 		};
@@ -685,6 +1265,7 @@
 			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				DSTROOT = /tmp/Facebook.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_MODEL_TUNING = G5;
@@ -702,14 +1283,20 @@
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				INSTALL_PATH = /usr/local/lib;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
-				LIBRARY_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					/Users/xinhui/Desktop,
+					/Users/xinhui/Dev/titanium_modules/facebook/mobile/ios/Classes/FBConnect,
+				);
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-DTI_POST_1_2";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = Facebook;
 				RUN_CLANG_STATIC_ANALYZER = NO;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = "arm64 armv7 armv7s i386";
 			};
 			name = Release;
 		};
@@ -736,6 +1323,7 @@
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = (
 					"-DDEBUG",
 					"-DTI_POST_1_2",
@@ -747,6 +1335,7 @@
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = "arm64 armv7 armv7s i386";
 			};
 			name = Debug;
 		};
@@ -772,13 +1361,14 @@
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				INSTALL_PATH = /usr/local/lib;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DTI_POST_1_2";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = Facebook;
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = "arm64 armv7 armv7s i386";
 			};
 			name = Release;
 		};
