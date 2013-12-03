@@ -304,8 +304,10 @@ public final class Settings {
             }
             return lastPing != 0;
         } catch (Exception e) {
-            // if there was an error, fall through to the failure case.
-            Utility.logd("Facebook-publish", e.getMessage());
+            if(e.getMessage() != null && !e.getMessage().isEmpty()) {
+              // if there was an error, fall through to the failure case.
+              Utility.logd("Facebook-publish", e.getMessage());
+            }
         }
         return false;
     }

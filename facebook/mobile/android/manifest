@@ -2,13 +2,19 @@
 # this is your module manifest and used by Titanium
 # during compilation, packaging, distribution, etc.
 #
+<<<<<<< HEAD
 version: 3.0.2
+=======
+
+=======
+version: 3.1.1.s01
+
+>>>>>>> 245ce8fc21a4947e6b4288fb01dee39d3951d4c7
 apiversion: 2
 description: Allows facebook integration for Titanium apps
 author: Ping Wang
 license: Apache Public License v2
 copyright: Copyright (c) 2009-2013 by Appcelerator, Inc.
-
 
 # these should not be edited
 name: Facebook

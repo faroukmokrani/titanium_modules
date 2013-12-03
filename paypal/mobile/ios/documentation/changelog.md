@@ -5,7 +5,7 @@ v1.8.0  Upgraded to PayPal MPL library version 2.1.0 (iOS7 fix) [TIMODOPEN-348]
 v1.7.0  Upgraded to PayPal MPL library version 2.0.0 (UDID fix) [TIMODOPEN-243]
 
 v1.6.2  Building with 2.1.3.GA and open sourcing [MOD-942]
-	
+
 v1.6.1  Fix for memory exception when using preapproval merchant name property [TIMODOPEN-152]
 
 v1.6    Upgraded to PayPal MPL library version 1.6.0
@@ -38,5 +38,5 @@ v1.2	Exposed the "customID" property of payments.
 v1.1    Upgraded to PayPal MPL 1.2.1 library. Several changes to the API had to be made as a consequence:
         - There are now fewer size options for the button. Only the following sizes remain: 152x33, 194x37, 278x43, and 294x43
         - "Donation" is no longer a valid type of payment, according to the library
-        
+
 v1.0    Initial Release
