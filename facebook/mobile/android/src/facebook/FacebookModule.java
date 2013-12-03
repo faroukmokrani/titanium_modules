@@ -19,6 +19,7 @@ import org.appcelerator.kroll.KrollModule;
 import org.appcelerator.kroll.annotations.Kroll;
 import org.appcelerator.kroll.common.CurrentActivityListener;
 import org.appcelerator.kroll.common.Log;
+import org.appcelerator.kroll.common.TiMessenger;
 import org.appcelerator.titanium.TiApplication;
 import org.appcelerator.titanium.TiBlob;
 import org.appcelerator.titanium.TiContext;
@@ -403,10 +404,10 @@ public class FacebookModule extends KrollModule
 		stateListeners.remove(listener);
 	}
 
-	protected void executeAuthorize(Activity activity)
+	protected void executeAuthorize(final Activity activity)
 	{
 		loginContext = new WeakReference<Context>(activity);
-		TiActivitySupport activitySupport  = (TiActivitySupport) activity;
+		final TiActivitySupport activitySupport  = (TiActivitySupport) activity;
 		int activityCode;
 		if (forceDialogAuth) {
 			// Single sign-on support
@@ -414,7 +415,7 @@ public class FacebookModule extends KrollModule
 		} else {
 			activityCode = activitySupport.getUniqueResultCode();
 		}
-		TiActivityResultHandler resultHandler = new TiActivityResultHandler()
+		final TiActivityResultHandler resultHandler = new TiActivityResultHandler()
 		{
 			@Override
 			public void onResult(Activity activity, int requestCode, int resultCode, Intent data)
@@ -429,7 +430,18 @@ public class FacebookModule extends KrollModule
 			}
 		};
 		
-		facebook.authorize(activity, activitySupport, permissions, activityCode, new LoginDialogListener(), resultHandler);
+		if (TiApplication.isUIThread()) {
+			facebook.authorize(activity, activitySupport, permissions, activityCode, new LoginDialogListener(), resultHandler);
+		} else {
+			final int code = activityCode;
+			TiMessenger.postOnMain(new Runnable(){
+				@Override
+				public void run()
+				{
+					facebook.authorize(activity, activitySupport, permissions, code, new LoginDialogListener(), resultHandler);
+				}
+			});
+		}
 	}
 
 	protected void executeLogout()
@@ -527,9 +539,17 @@ public class FacebookModule extends KrollModule
 
 		public void onFacebookError(FacebookError error)
 		{
-			Log.e(TAG, "LoginDialogListener onFacebookError: " + error.getMessage(), error);
+			String errorMessage = error.getMessage();
+			// There is a bug in Facebook Android SDK 3.0. When the user cancels the login by pressing the
+			// "X" button, the onFacebookError callback is called instead of onCancel.
+			// http://stackoverflow.com/questions/14237157/facebookoperationcanceledexception-not-called
+			if (errorMessage != null && errorMessage.indexOf("User canceled log in") > -1) {
+				FacebookModule.this.loginCancel();
+			} else {
+				Log.e(TAG, "LoginDialogListener onFacebookError: " + error.getMessage(), error);
+				SessionEvents.onLoginError(error.getMessage());
+			}
 			loginContext = null;
-			SessionEvents.onLoginError(error.getMessage());
 		}
 
 		public void onError(DialogError error)
